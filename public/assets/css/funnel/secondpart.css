@@ -1,0 +1,315 @@
+a{
+  text-decoration: none;
+}
+.step-indicator {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      width: 70%;
+      margin: 0px auto;
+    }
+    .step {
+      display: block !important;
+      text-align: center;
+      flex-grow: 1;
+      position: relative;
+    }
+    .step:not(:last-child)::after {
+      content: "";
+      height: 3px;
+      background: #ccc;
+      position: absolute;
+      top: 15px;
+      right: -50%;
+      width: 100%;
+      z-index: 0;
+    }
+    .step .circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #ccc;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      margin-bottom: .5rem;
+      z-index: 1;
+      position: relative;
+    }
+    .step.active .circle,
+    .step.completed .circle {
+      background: #0d6efd;
+    }
+    .step.active p,
+    .step.completed p {
+      font-weight: bold;
+    }
+    .step.completed::after {
+      background: #0d6efd;
+    }
+    .step p {
+      margin: 0;
+      font-size: 0.85rem;
+    }
+
+    .form-step {
+      display: none;
+    }
+    .form-step.active {
+      display: block;
+    }
+
+.stepper-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 30px;
+      overflow-x: auto;
+    }
+  .next-step{
+        width: 10%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }  
+ 
+  .prev-step{
+     width: 10%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }
+    
+
+    .nextbtn:hover{
+      background: linear-gradient(107.38deg, #ff6a33, #ef4000);
+      color:white;
+    }
+
+    .prebtn:hover{
+      color: var(--bs-btn-hover-color) !important;
+      background-color: var(--bs-btn-hover-bg) !important;
+      border-color: var(--bs-btn-hover-border-color) !important;
+    }
+
+    /* steps one */
+
+    
+
+
+
+
+    /*--- steps two */
+    .upload-box {
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      cursor: pointer;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .upload-box:hover {
+      background: #f9f9f9;
+    }
+    .upload-box input {
+      display: none;
+    }
+    .upload-icon {
+      font-size: 28px;
+    }
+    .preview-container {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .preview-thumb {
+      position: relative;
+      width: 120px;
+      height: 160px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .preview-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .remove-btn {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      line-height: 16px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .popup-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .popup-content {
+      position: relative;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      max-width: 90%;
+      max-height: 90%;
+    }
+    .popup-content img {
+      width: 100%;
+      height: auto;
+    }
+    .popup-close {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: black;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+
+
+
+
+    /*--- steps three */
+    .owner-block,
+    .manager-section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      background-color: #f8f9fa;
+    }
+    .form-section {
+      display: none;
+    }
+
+
+    .secondpart{
+      width: 65%;
+      margin: 0px auto;
+
+    }
+
+    .primary-contact {
+    position: relative;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    font-family: Inter;
+    color: #080808;
+    text-align: center;
+  }
+
+  .please-fill-the {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Inter;
+    color: #8d8d8d;
+    text-align: center;
+  }
+
+  .passportpart{
+    width: 70%;
+    margin: auto;
+  }
+  .passscan{
+            display: block;
+            margin-top: 35px;
+            text-align: center;
+  }
+
+small{
+     display: block;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .fw-bold{
+    text-align: center;
+    display: block;
+  }
+
+  .preview-container{
+    margin: 0px auto;
+    width: 50%;
+  }
+
+  .owninfo{
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .manager-radio-group {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .manager-radio input[type="radio"] {
+      display: none;
+    }
+
+    .manager-radio label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      background-color: #f8f9fa;
+    }
+
+    .manager-radio input[type="radio"]:checked + label {
+      background-color: #fd5c14;
+      color: white;
+      border-color: #fd5c14;
+    }
+
+    .manager-radio input[type="radio"]:checked + label .checkmark {
+      display: inline-block;
+    }
+
+    .checkmark {
+      display: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .manager-radio label span {
+      font-weight: 500;
+    }
+
+  
+.demopass{
+  margin: 0px auto;
+  text-align: center;
+  text-decoration: none;
+}

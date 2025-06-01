@@ -1,0 +1,26 @@
+/* -------------------------------------------------------------------------- */
+/*                                Falcon Button                               */
+/* -------------------------------------------------------------------------- */
+/* prettier-ignore */
+:root {
+    --cute-toast-z-index: 99999;
+    --cute-alert-z-index: 99999;
+    --cute-confirm-z-index: 99999;
+    --cute-alert-header-background-color: var(--falcon-blue);
+    --cute-alert-primary-button-background-color: var(--falcon-blue);
+    --cute-alert-primary-button-background-color-hover: rgb(var(--falcon-primary-rgb)/ 50%);
+}
+.setting-toggle {
+    top:unset !important;
+    bottom: 10% !important;
+}
+.iti__country-list{
+    z-index: 9999 !important;
+}
+.iti input, .iti input[type=text], .iti input[type=tel] {
+    height: 58px !important;
+}
+
+.cute-alert__primary-btn{
+    border: none !important;
+}
