@@ -5,7 +5,20 @@
 @push('styles')
 
 <link rel="stylesheet" href="{{ asset('assets/css/funnel/secondpart.css') }}">
-
+<style>
+.step-indicator{
+  width: 35% !important ;
+}
+.primary-contact{
+  font-size: 32px !important;
+}
+.owninfo {
+    width: 100% !important;
+}
+.secondpart {
+    width: 75% !important;
+}
+</style>
 @endpush
 
 
@@ -28,8 +41,8 @@
       <!---- step1 -------->
 
         <div class="form-step secondpart active" id="step1">
-            <div class="primary-contact">Owner Information</div>
-            <div class="please-fill-the">Please fill the form below to receive a quote for your project.</div>
+            <div class="primary-contact mt-5">Owner Information</div>
+            <div class="please-fill-the mb-5">Please fill the form below to receive a quote for your project.</div>
 
                 <div class="container owninfo" >
                   <form id="entityForm">
@@ -47,7 +60,7 @@
 
                     <!-- Sub Category -->
                     <div class="mb-3 form-section" id="subCategorySection">
-                      <label for="subCategory" class="form-label">LLC Types *</label>
+                      <label for="subCategory" class="form-label">Company Structure Types *</label>
                       <select class="form-select" id="subCategory"></select>
                     </div>
 
@@ -79,14 +92,14 @@
                             <div class="manager-radio">
                               <input type="radio" id="ownerA" name="managerOwner" value="A" checked>
                               <label for="ownerA">
-                                <div class="checkmark">✔</div>
+                                <div class="checkmark"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></div>
                                 <span>Owner A</span>
                               </label>
                             </div>
                             <div class="manager-radio">
                               <input type="radio" id="ownerB" name="managerOwner" value="B">
                               <label for="ownerB">
-                                <div class="checkmark">✔</div>
+                                <div class="checkmark"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></div>
                                 <span>Owner B</span>
                               </label>
                             </div>
@@ -143,12 +156,12 @@
 
       <!---- step2 -------->
 
-      <div class="form-step" id="step2">
-        <div class="container">
+      <div class="form-step mt-5" id="step2">
+        <div class="container mt-5">
             <div class="primary-contact">Documents submit</div>
             <div class="please-fill-the">Please fill the form below to receive a quote for your project.</div>
             <form>
-                <div class="mb-3">
+                <div class="mb-3 mt-5">
                   <label class="form-label fw-bold passscan">Passport Scan Copy & Recent 3 months Bank Statement*</label>
                   <div class="row g-3 passportpart">
                     <div class="col-md-6">
