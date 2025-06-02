@@ -140,7 +140,7 @@
               </div>
             </div>
             <div class="mb-3" id="item-group">
-                <label for="item" class="form-label">Choose an item:</label>
+                <label for="item" class="form-label">Company structure type</label>
                 <select class="form-select" id="item">
                   <option value="">-- Select an item --</option>
                 </select>
@@ -230,12 +230,12 @@
         <div class="container py-4">
           <div class="package-selector">
             <div class="package-tab active-tab" onclick="showPackage(1)">
-              <div>💎 Package Details 1</div>
-              <small>Regular ( $257/Year )</small>
+              <div>💎 Essential Formation</div>
+              <small>Standard Delivery Timeline ( $179 /Year )</small>
             </div>
             <div class="package-tab" onclick="showPackage(2)">
-              <div>💎 Package Details 2</div>
-              <small>Regular ( $400/Year )</small>
+              <div>💎 Expedite Formation</div>
+              <small>Priority Handling & Fast Delivery ( $250/Year )</small>
             </div>
           </div>
 
@@ -253,10 +253,10 @@
                   <!-- Package 1 -->
                   <form id="package1" class="package-card">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                      <span>Package Details 1</span>
-                      <span class="badge bg-light text-dark px-3 py-1">Regular</span>
+                      <span>Essential Formation</span>
+                      <span class="badge bg-light text-dark px-3 py-1">Standard Delivery Timeline</span>
                     </div>
-                    <h2 id="totalPrice1" >$257 <small class="fs-5">/Year</small></h2>
+                    <h2 id="totalPrice1" >$179 <small class="fs-5">/ Year</small></h2>
 
                     <div class="form-check mt-3">
                       <input class="form-check-input" type="checkbox" id="service1" name="services[]" value="US Business Registration" checked>
@@ -267,19 +267,19 @@
                       <label class="form-check-label" for="service2">Registered Agent</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="service3" name="services[]" value="Mail Forwarding">
+                      <input class="form-check-input" type="checkbox" id="service3" name="services[]" value="Mail Forwarding"checked>
                       <label class="form-check-label" for="service3">Mail Forwarding</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="service4" name="services[]" value="EIN (Tax ID)" >
+                      <input class="form-check-input" type="checkbox" id="service4" name="services[]" value="EIN (Tax ID)" checked>
                       <label class="form-check-label" for="service4">EIN (Tax ID)</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="service5" name="services[]" value="Stripe Account Setup">
+                      <input class="form-check-input" type="checkbox" id="service5" name="services[]" value="Stripe Account Setup" checked>
                       <label class="form-check-label" for="service5">Business Stripe Account Setup</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="service6" name="services[]" value="Email Support">
+                      <input class="form-check-input" type="checkbox" id="service6" name="services[]" value="Email Support" checked>
                       <label class="form-check-label" for="service6">Email Support</label>
                     </div>
                     <div class="form-check" style="position: relative;">
@@ -299,10 +299,10 @@
                   <!-- Package 2 -->
                   <form id="package2" class="package-card hidden">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                      <span>Package Details 2</span>
-                      <span class="badge bg-light text-dark px-3 py-1">Regular</span>
+                      <span>Expedite Formation</span>
+                      <span class="badge bg-light text-dark px-3 py-1">Priority Handling & Fast Delivery</span>
                     </div>
-                    <h2 id="totalPrice2">$400 <small class="fs-5">/Year</small></h2>
+                    <h2 id="totalPrice2">$250 <small class="fs-5">/Year</small></h2>
 
                       <div class="form-check mt-3">
                         <input class="form-check-input" type="checkbox" id="services1" name="services[]" value="US Business Registration" checked>
