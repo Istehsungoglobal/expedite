@@ -1,55 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expedite</title>
-    <!--css file-->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/brands.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap" />
+@extends('layouts.fontpage')
+
+@section('title', 'Home')
+
+@push('styles')
+<style>
+
+</style>
+@endpush
 
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="{{url('assets/images/funnel/favicon.svg')}}">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
-                <div class="navbar-logo" >
-                    <img src="assets/logo.png" alt="Logo">
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navbar-menu" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item"><a  class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a  class="nav-link" href="pricing.html">Pricing <span class="badge-new"> new</span> </a></li>
-                        <li class="nav-item"><a  class="nav-link" href="contact.html">Contact</a></li>
-                        <li class="nav-item"><a  class="nav-link" href="login.html">Login/Dashboard</a></li>
-                       <!--------- <li class="button-li">
-                            <button class="estimate-button">
-                                <a href="deshboard.html"><span style="color:white;border-radius: 40px;background-color: #172155;width: 100%;height: 54px;padding: 5px 10px;box-sizing: border-box;text-align: center;font-size: 16px;color: #fff;font-family: Poppins;">Deshboard</span> </a>
-                            </button>
-                        </li>----------->
-                    </ul>
-                </div>
-
-            </div>
-        </nav>
-    </header>
-
+@section('content')
+    
     <!--------- hero part section ----------->
 
     <section class="hero pb-sm-4">
@@ -58,15 +19,15 @@
                 <div class="col-12">
                     <div class="frame-parent">
                         <div class="vuesaxlineartick-circle-parent">
-                           <img class="vuesaxlineartick-circle-icon" alt="" src="assets/check.svg">
+                           <img class="vuesaxlineartick-circle-icon" alt="" src="{{asset('assets/images/funnel/check.svg')}}">
                            <div class="start">START</div>
                         </div>
                         <div class="vuesaxlineartick-circle-parent">
-                           <img class="vuesaxlineartick-circle-icon" alt="" src="assets/check.svg">
+                           <img class="vuesaxlineartick-circle-icon" alt="" src="{{asset('assets/images/funnel/check.svg')}}">
                            <div class="start">SCALE</div>
                         </div>
                         <div class="vuesaxlineartick-circle-container">
-                           <img class="vuesaxlineartick-circle-icon" alt="" src="assets/check.svg">
+                           <img class="vuesaxlineartick-circle-icon" alt="" src="{{asset('assets/images/funnel/check.svg')}}">
                            <div class="start">SUCCEED</div>
                         </div>
                     </div>
@@ -107,15 +68,15 @@
                 <div class="col-12">
                     <div class="frame-parent">
                         <div class="rectangle-div">
-                           <img class="magic-wand-1-icon" alt="" src="assets/w3.png">
+                           <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
                            <div class="start">No Delays</div>
                         </div>
                         <div class="rectangle-div">
-                           <img class="magic-wand-1-icon" alt="" src="assets/w3.png">
+                           <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
                            <div class="start">No Hassles</div>
                         </div>
                         <div class="rectangle-div">
-                           <img class="magic-wand-1-icon" alt="" src="assets/w3.png">
+                           <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
                            <div class="start">No Hidden Fees</div>
                         </div>
                     </div>
@@ -127,17 +88,17 @@
                         <div class="customer-faces" style="margin: 0px auto;">
                             <div class="avatar">
                                 <div class="customer-1-1">
-                                    <img src="assets/avatar.png" alt="">
+                                    <img src="{{asset('assets/images/funnel/avatar.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="avatar1">
                                 <div class="avatar2-1">
-                                    <img src="assets/avatar (2).png" alt="">
+                                    <img src="{{asset('assets/images/funnel/avatar (2).png')}}" alt="">
                                 </div>
                             </div>
                             <div class="avatar1">
                                 <div class="avatar3-1">
-                                    <img src="assets/avatar (1).png" alt="">
+                                    <img src="{{asset('assets/images/funnel/avatar (1).png')}}" alt="">
                                 </div>
                             </div>
                             <div class="stats-number">8,182</div>
@@ -894,44 +855,54 @@
 
 
 
- <section>
-        <div class="container">
-            <div class="video-slider-section">
+<section>
+    <div class="container-flude mt-5 pb-5">
+        <div class="video-slider-section">
           <h6>EXPEDITE FORMATION Journey</h6>
           <h2>
             Entrepreneurs move fast. We move faster. <br>
             US business in Clicks. No paperwork, no visits, no-nonsense.
           </h2>
-
-          <div id="videoSlider" class="carousel slide video-slider mt-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Video 1"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Video 2"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Video 3"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Video 4"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Video 5"></div>
+          
+            <div class="video-slider" id="videoSlider">
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
-              <div class="carousel-item">
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Video 6"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Video 7"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/8.jpg" alt="Video 8"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/9.jpg" alt="Video 9"></div>
-                <div class="video-card"><img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Video 10"></div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
+          
 
-            <!-- Optional: Add controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#videoSlider" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#videoSlider" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-          </div>
+
+
         </div>
-        </div>
-    </section>
+    </div>
+</section>
 
 
 
@@ -1119,103 +1090,35 @@
     </section>
 
 
+@endsection
 
+@push('scripts')
+<script>
+    const slider = document.getElementById('videoSlider');
+    let isDown = false;
+    let startX, scrollLeft;
 
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
 
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+    });
 
-    <!-- footer part -->
-    <footer class="footer">
-        <div class="mid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+    });
 
-                        <img class="vector" alt="" src="assets/logo.png">
-                        <div class="frame-parent">
-                            <div class="at-expedite-formation">At Expedite Formation, we help entrepreneurs worldwide launch U.S. businesses fast, simple, and fully compliant.</div>
-                            <div class="whether-youre-freelancing">Whether you're freelancing, building an e-commerce brand, or scaling a startup, we make business ownership borderless and accessible. Let’s grow, together.</div>
-                        </div>
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2;
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  </script>
 
-                    </div>
-                    <div class="col-md-4">
-                        <div class="pages-parent">
-                            <h1>Pages</h1>
-
-                            <div class="pages">
-                                <ul  class="list-group" >
-                                    <li class="list-group-item" >
-                                        <a href="contact.html">Contact Us</a>
-                                        <a href="terms.html">Terms of Service</a>
-                                        <a href="refund.html">Refund Policy</a>
-                                        <a href="blog.html">Blog</a>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="contact-parent">
-                            <h1>Contact</h1>
-                            <div class="contact-phone">
-                                <i class="fa-solid fa-phone"></i>
-                                <span>mangcoding123@gmail.com</span>
-                            </div>
-                            <div class="contact-phone">
-                                <i class="fa-solid fa-envelope"></i>
-                                <span>(406) 555-0120</span>
-                            </div>
-                            <div class="contact-phone">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <span>2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="line-div">
-            </div>
-
-            <footer class="footer-copyright">
-               <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="expedite-all-rights">© 2025 Expedite. All rights reserved.</div>
-
-                        </div>
-                        <div class="col-sm-4">
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="vector-parent" style="color: white; text-align: right;padding-right: 50px;" >
-                                <i style="padding-left:10px" class="fa-brands fa-facebook"></i>
-                                <i style="padding-left:10px" class="fa-brands fa-twitter"></i>
-                                <i style="padding-left:10px" class="fa-brands fa-telegram"></i>
-                                <i style="padding-left:10px" class="fa-brands fa-whatsapp"></i>
-
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </footer>
-        </div>
-    </footer>
-    <!--js file-->
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/brands.min.js"></script>
-    <script src="js/fontawesome.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/popper.min.js"></script>
-
-    <script>
-        const slider = document.querySelector('#serviceSlider');
-          const carousel = new bootstrap.Carousel(slider, {
-            interval: 4000,  // 4 seconds
-            ride: 'carousel'
-          });
-    </script>
-
-
-</body>
-</html>
+@endpush
