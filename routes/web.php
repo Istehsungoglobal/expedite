@@ -55,6 +55,11 @@ Route::prefix('admin')->as('admin.')->middleware(['auth', 'verified'])->group(fu
     Route::get('/orderhistorypay', [BackendController::class, 'orderhistorypay'])->name('orderhistorypay');
     Route::get('/ticket', [BackendController::class, 'ticket'])->name('ticket');
 
+    Route::get('/taxfiling', [BackendController::class, 'taxfiling'])->name('taxfiling');
+    Route::get('/taxfilingcreate', [BackendController::class, 'taxfilingcreate'])->name('taxfilingcreate');
+
+
+
     Route::get('/affiliate', [BackendController::class, 'affiliate'])->name('affiliate');
     //User.....................
 
@@ -67,19 +72,37 @@ Route::prefix('admin')->as('admin.')->middleware(['auth', 'verified'])->group(fu
     Route::get('/compliance', [CompanyDetailController::class, 'compliance'])->name('compliance');
 
 
+    //funnel....................
+
+    Route::get('/primarypart', [FunnelController::class, 'primarypart'])->name('primarypart');
+    Route::get('/primarypart', [FunnelController::class, 'showPrimaryPart']);
+    Route::get('/secondarypart', [FunnelController::class, 'secondarypart'])->name('secondarypart');
+    Route::get('/checkout', [FunnelController::class, 'checkout'])->name('checkout');
+    Route::get('/invoice', [FunnelController::class, 'invoice'])->name('invoice');
+    Route::get('/payment_failed', [FunnelController::class, 'payment_failed'])->name('payment_failed');
+    Route::get('/thanks', [FunnelController::class, 'thanks'])->name('thanks');
+    Route::get('/payments', [FunnelController::class, 'payments'])->name('payments');
+    Route::get('/singleservicepayment', [FunnelController::class, 'singleservicepayment'])->name('singleservicepayment');
+    Route::get('/congrats', [FunnelController::class, 'congrats'])->name('congrats');
+    Route::get('/singleforms', [FunnelController::class, 'singleforms'])->name('singleforms');
+
 });
-//funnel....................
 
-Route::get('/primarypart', [FunnelController::class, 'primarypart'])->name('primarypart');
-Route::get('/primarypart', [FunnelController::class, 'showPrimaryPart']);
-Route::get('/secondarypart', [FunnelController::class, 'secondarypart'])->name('secondarypart');
-Route::get('/checkout', [FunnelController::class, 'checkout'])->name('checkout');
-Route::get('/invoice', [FunnelController::class, 'invoice'])->name('invoice');
-Route::get('/payment_failed', [FunnelController::class, 'payment_failed'])->name('payment_failed');
-Route::get('/thanks', [FunnelController::class, 'thanks'])->name('thanks');
+//fontpages...................
+Route::get('/home', [FontPageController::class, 'index'])->name('home');
+Route::get('/about', [FontPageController::class, 'about'])->name('about');
+Route::get('/pricing', [FontPageController::class, 'pricing'])->name('pricing');
+Route::get('/contact', [FontPageController::class, 'contact'])->name('contact');
+Route::get('/login', [FontPageController::class, 'login'])->name('login');
+Route::get('/refund', [FontPageController::class, 'refund'])->name('refund');
+Route::get('/terms', [FontPageController::class, 'terms'])->name('terms');
+Route::get('/privacy', [FontPageController::class, 'privacy'])->name('privacy');
+Route::get('/blog', [FontPageController::class, 'blog'])->name('blog');
 
-//blog....................
-Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+
+
+
+
 
 
 
