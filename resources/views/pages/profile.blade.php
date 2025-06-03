@@ -5,7 +5,7 @@
 
 <style>
    .profile-card {
-      width:80%;
+      width: 37%;
       margin: auto;
       background-color: #fff;
       border: 1px solid #eee;
