@@ -354,6 +354,8 @@
                     <th>Commission %</th>
                     <th>Package</th>
                     <th>Net Amount</th>
+                    <th>Status</th>
+                    <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -365,6 +367,13 @@
                     <td>8%</td>
                     <td>Stripe Setup</td>
                     <td>$323</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>10452</td>
@@ -374,6 +383,13 @@
                     <td>10%</td>
                     <td>LLC Formation</td>
                     <td>$438</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>10877</td>
@@ -383,6 +399,13 @@
                     <td>5%</td>
                     <td>ITIN</td>
                     <td>$157.50</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>10991</td>
@@ -392,6 +415,13 @@
                     <td>12%</td>
                     <td>Business Bank</td>
                     <td>$612.64</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>11200</td>
@@ -401,6 +431,13 @@
                     <td>7%</td>
                     <td>EIN</td>
                     <td>$449.40</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>11333</td>
@@ -410,6 +447,13 @@
                     <td>10%</td>
                     <td>Annual Filing</td>
                     <td>$715</td>
+                    <td class="text-green" style="color: green;">Completed</td>
+                    <td>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="view-btn" style="border: 0px">View</button>
+                        <span class="ellipsis">⋮</span>
+                      </div>
+                    </td>
                 </tr>
                 </tbody>
             </table>
