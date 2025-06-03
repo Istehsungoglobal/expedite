@@ -482,7 +482,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="chatModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
+  <div class="modal-dialog modal-xl modal-dialog-centered" style="width: 76%">
     <div class="modal-content chat-modal-content">
       <div class="row g-0 h-100">
         

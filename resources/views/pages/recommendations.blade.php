@@ -231,7 +231,7 @@
                     <div class="supporting-text">Open a U.S. business bank account to accept payments globally, build trust, and keep your business finances secure and organized.</div>
                 </div>
                 <div class="text-end" style="position: absolute;right: 20px;bottom: 25px;margin: auto;">
-                    <a href="#" class="get-now-btn">
+                    <a href="{{ route('admin.payments') }}" class="get-now-btn">
                     Get Now
                     <span class="arrow-circle">→</span>
                     </a>
@@ -247,11 +247,11 @@
             </div>
             <div class="contentrecom">
                 <div class="text-and-supporting-text">
-                    <div class="text">Business Bank Account</div>
-                    <div class="supporting-text">Open a U.S. business bank account to accept payments globally, build trust, and keep your business finances secure and organized.</div>
+                    <div class="text">ITIN (Individual Taxpayer Identification Number)</div>
+                    <div class="supporting-text">Get your ITIN to stay tax-compliant, access essential financial services, and unlock benefits even without a U.S. SSN.</div>
                 </div>
                 <div class="text-end" style="position: absolute;right: 20px;bottom: 25px;margin: auto;">
-                    <a href="#" class="get-now-btn">
+                    <a href="{{ route('admin.payments') }}" class="get-now-btn">
                     Get Now
                     <span class="arrow-circle">→</span>
                     </a>
@@ -267,11 +267,11 @@
             </div>
             <div class="contentrecom">
                 <div class="text-and-supporting-text">
-                    <div class="text">Business Bank Account</div>
-                    <div class="supporting-text">Open a U.S. business bank account to accept payments globally, build trust, and keep your business finances secure and organized.</div>
+                    <div class="text">EIN (Employer Identification Number)</div>
+                    <div class="supporting-text">Your EIN is your business’s tax ID; essential for opening bank accounts, hiring, and filing taxes. Fast and reliable setup included.</div>
                 </div>
                 <div class="text-end" style="position: absolute;right: 20px;bottom: 25px;margin: auto;">
-                    <a href="#" class="get-now-btn">
+                    <a href="{{ route('admin.payments') }}" class="get-now-btn">
                     Get Now
                     <span class="arrow-circle">→</span>
                     </a>
@@ -287,11 +287,11 @@
             </div>
             <div class="contentrecom">
                 <div class="text-and-supporting-text">
-                    <div class="text">Business Bank Account</div>
-                    <div class="supporting-text">Open a U.S. business bank account to accept payments globally, build trust, and keep your business finances secure and organized.</div>
+                    <div class="text">Get A New Agent</div>
+                    <div class="supporting-text">Stay in good legal standing with a trusted registered agent that handles your official documents and compliance alerts on time.</div>
                 </div>
                 <div class="text-end" style="position: absolute;right: 20px;bottom: 25px;margin: auto;">
-                    <a href="#" class="get-now-btn">
+                    <a href="{{ route('admin.payments') }}" class="get-now-btn">
                     Get Now
                     <span class="arrow-circle">→</span>
                     </a>
@@ -311,7 +311,7 @@
                     <div class="supporting-text">Open a U.S. business bank account to accept payments globally, build trust, and keep your business finances secure and organized.</div>
                 </div>
                 <div class="text-end" style="position: absolute;right: 20px;bottom: 25px;margin: auto;">
-                    <a href="#" class="get-now-btn">
+                    <a href="{{ route('admin.payments') }}" class="get-now-btn">
                     Get Now
                     <span class="arrow-circle">→</span>
                     </a>

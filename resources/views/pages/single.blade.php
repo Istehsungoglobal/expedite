@@ -104,7 +104,7 @@
                 <small>Register agent</small>
                 <h2>$299.00</h2>
                 <button class="get-btn">
-                    Get Now
+                    <a style="text-decoration: none; color:white" href="{{ route('admin.singleservicepayment') }}"> Get Now </a>
                     <span class="circle"><i class="fas fa-arrow-right"></i></span>
                 </button>
             </div>
@@ -115,7 +115,7 @@
                 <small>ITIN</small>
                 <h2>$195.00</h2>
                 <button class="get-btn">
-                    Get Now
+                   <a style="text-decoration: none; color:white" href="{{ route('admin.singleservicepayment') }}"> Get Now </a>
                 <span class="circle"><i class="fas fa-arrow-right"></i></span>
                 </button>
             </div>
@@ -126,7 +126,7 @@
                 <small>EIN</small>
                 <h2>$85.00</h2>
                 <button class="get-btn">
-                    Get Now
+                    <a style="text-decoration: none; color:white" href="{{ route('admin.singleservicepayment') }}"> Get Now </a>
                     <span class="circle"><i class="fas fa-arrow-right"></i></span>
                 </button>
             </div>
@@ -137,7 +137,7 @@
                 <small>Business Bank Account</small>
                 <h2>$215.00</h2>
                 <button class="get-btn">
-                    Get Now
+                    <a style="text-decoration: none; color:white" href="{{ route('admin.singleservicepayment') }}"> Get Now </a>
                     <span class="circle"><i class="fas fa-arrow-right"></i></span>
                 </button>
             </div>
@@ -150,7 +150,7 @@
                 <small>Business Stripe Account</small>
                 <h2>$189.00</h2>
                 <button class="get-btn">
-                    Get Now
+                    <a style="text-decoration: none; color:white" href="{{ route('admin.singleservicepayment') }}"> Get Now </a>
                     <span class="circle"><i class="fas fa-arrow-right"></i></span>
                 </button>
             </div>
