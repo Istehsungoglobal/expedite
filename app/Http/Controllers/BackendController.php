@@ -41,4 +41,12 @@ class BackendController extends Controller
     {
         return view("pages.affiliate");
     }
+    public function taxfiling()
+    {
+        return view("pages.taxfiling");
+    }
+    public function taxfilingcreate()
+    {
+        return view("pages.taxfilingcreate");
+    }
 }
