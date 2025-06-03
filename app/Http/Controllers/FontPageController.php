@@ -12,9 +12,42 @@ class FontPageController extends Controller
      */
     public function index()
     {
-        
+        return view("index");
     }
-    
+    public function about()
+    {
+        return view("about");
+    }
+    public function pricing()
+    {
+        return view("pricing");
+    }
+    public function contact()
+    {
+        return view("contact");
+    }
+    public function login()
+    {
+        return view("login");
+    }
+    public function blog()
+    {
+        return view("blog");
+    }
+
+    public function terms()
+    {
+        return view("terms");
+    }
+    public function refund()
+    {
+        return view("refund");
+    }
+    public function privacy()
+    {
+        return view("privacy");
+    }
+
 
     /**
      * Show the form for creating a new resource.
