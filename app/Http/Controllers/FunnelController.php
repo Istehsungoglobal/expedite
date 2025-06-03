@@ -14,22 +14,36 @@ class FunnelController extends Controller
         return view("funnel.primarypart");
     }
 
-     public function secondarypart(){
+    public function secondarypart(){
         return view("funnel.secondarypart");
     }
-     public function payment_failed(){
+    public function payment_failed(){
         return view("funnel.payment_failed");
     }
-     public function checkout(){
+    public function checkout(){
         return view("funnel.checkout");
     }
-     public function invoice(){
+    public function invoice(){
         return view("funnel.invoice");
     }
-     public function thanks(){
+    public function thanks(){
         return view("funnel.thanks");
     }
-     public function showPrimaryPart()
+    public function payments(){
+        return view("funnel.payments");
+    }
+
+    public function singleservicepayment(){
+        return view("funnel.singleservicepayment");
+    }
+    public function congrats(){
+        return view("funnel.congrats");
+    }
+
+    public function singleforms(){
+        return view("funnel.singleforms");
+    }
+    public function showPrimaryPart()
     {
         $categories =  $categories = Category::orderBy('id')->get();
         $states = StateFee::orderBy('id')->get();// Get all category data
