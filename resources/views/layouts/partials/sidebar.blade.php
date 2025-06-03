@@ -68,8 +68,13 @@
                         <x-nav-link href="{{ route('admin.compliance') }}">Compliance</x-nav-link>
                     </x-nav-item>
                 </x-nav-group>
-                 <x-nav-item>
+
+                <x-nav-item>
                     <x-nav-link href="{{ route('admin.single') }}" icon="fab fa-trello" :active="isActive('single')">Single Services</x-nav-link>
+                </x-nav-item>
+
+                <x-nav-item>
+                    <x-nav-link href="{{ route('admin.taxfiling') }}" icon="fab fa-trello" :active="isActive('taxfiling')">Tax Filing</x-nav-link>
                 </x-nav-item>
 
                 <x-nav-item>
