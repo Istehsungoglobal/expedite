@@ -112,92 +112,117 @@
 <div class="container mt-5 mb-5">
     <div class="simple-transparent">Pic a best plan to grow your business </div>
 </div>
-<div class="container py-5 mb-5">
-  <div class="row g-4">
-    <div class="col-md-2"></div>
-    <div class="col-md-4">
-      <form class="pricing-card">
-        <div class="d-flex justify-content-between align-items-center mb-2">
-          <small>Essential Formation</small>
-          <span class="badge-plan"style="font-size: 10px !important ; font-weight:400 !important;">Standard Delivery Timeline</span>
-        </div>
-        <div class="price">$<span id="price1">179</span> <span class="year">Year</span></div>
+<!-- business part -->
+<section class="business pt-5 mb-5">
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-md-12">
+              <div class="packages">
+                  <!-- Package 1 -->
+                  <form action="">
+                    <div class="package-card">
+                      <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 12px"><strong>Essential Formation</strong></div>
+                        <div class="label-tag">Standard Delivery Timeline</div>
+                      </div>
 
-        <div class="mt-4">
-          <div class="feature"><input type="checkbox" checked> US Business Registration</div>
-          <div class="feature"><input type="checkbox" checked> Registered Agent</div>
-          <div class="feature"><input type="checkbox" checked> Mail Forwarding</div>
-          <div class="feature"><input type="checkbox" checked> EIN (Tax ID)</div>
-          <div class="feature"><input type="checkbox" checked> Business Stripe Account Setup</div>
-          <div class="feature"><input type="checkbox" checked> Email Support</div>
-          <div class="feature" style="position: relative">
-            <input type="checkbox" class="addon1" value="99" onchange="updatePrice(1)"> ITIN ($99.00)
-            <img class="addion" src="{{ url('assets/images/funnel/addicon.png') }}" alt="">
-          </div>
-          <div class="feature" style="position: relative">
-            <input type="checkbox" class="addon1" value="99" onchange="updatePrice(1)"> Business Bank ($99.00)
-            <img class="addion" src="{{ url('assets/images/funnel/addicon.png') }}" alt="">
-          </div>
-        </div>
+                      <div class="price-row">
+                        <h2 class="total-price">$179</h2>
+                        <span>/Year</span>
+                      </div>
 
-        <button type="submit" class="get-started-btn w-100">
-          Get Started <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
-        </button>
-      </form>
+                      <ul class="feature-list">
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
+                        <li class="feature-item"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
+                        <li class="feature-item disabled" style="position: relative;">
+                          <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
+                          <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
+                          </label>
+                        </li>
+                        <li class="feature-item disabled" style="position: relative;">
+                          <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
+                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
+                          </label>
+                        </li>
+                      </ul>
+
+                      <button class="total-btn">
+                        Get Started <span class="rarr">→</span>
+                      </button>
+                    </div>
+                  </form>
+                  <!-- Package 2 -->
+                  <form action="">
+                      <div class="package-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                          <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
+                          <div class="label-tag">Priority Handling & Fast Delivery</div>
+                        </div>
+
+                        <div class="price-row">
+                          <h2 class="total-price">$179</h2>
+                          <span>/Year</span>
+                        </div>
+
+                        <ul class="feature-list">
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
+                          <li class="feature-item"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
+                          <li class="feature-item disabled" style="position: relative;">
+                            <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
+                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
+                            </label>
+                          </li>
+                          <li class="feature-item disabled" style="position: relative;">
+                            <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
+                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
+                            </label>
+                          </li>
+                        </ul>
+
+                        <button class="total-btn">
+                          Get Started <span class="rarr">→</span>
+                        </button>
+                      </div>
+                  </form>
+              </div>
+            </div>
+        </div>
     </div>
-
-    <div class="col-md-4">
-      <form class="pricing-card">
-        <div class="d-flex justify-content-between align-items-center mb-2">
-          <small>Expedite Formation</small>
-          <span class="badge-plan" style="font-size: 10px !important ; font-weight:400 !important;">Priority Handling & Fast Delivery</span>
-        </div>
-        <div class="price">$<span id="price2">250</span> <span class="year">Year</span></div>
-
-        <div class="mt-4">
-          <div class="feature"><input type="checkbox" checked> US Business Registration</div>
-          <div class="feature"><input type="checkbox" checked> Registered Agent</div>
-          <div class="feature"><input type="checkbox" checked> Mail Forwarding</div>
-          <div class="feature"><input type="checkbox" checked> EIN (Tax ID)</div>
-          <div class="feature"><input type="checkbox" checked> Business Stripe Account Setup</div>
-          <div class="feature"><input type="checkbox" checked> Email Support</div>
-          <div class="feature" style="position: relative">
-            <input type="checkbox" class="addon2" value="99" onchange="updatePrice(2)"> ITIN ($99.00)
-            <img class="addion" src="{{ url('assets/images/funnel/addicon.png') }}" alt="">
-          </div>
-          <div class="feature" style="position: relative">
-            <input type="checkbox" class="addon2" value="99" onchange="updatePrice(2)"> Business Bank ($99.00)
-            <img class="addion" src="{{ url('assets/images/funnel/addicon.png') }}"  alt="">
-          </div>
-        </div>
-
-        <button type="submit" class="get-started-btn w-100">
-          Get Started <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
-        </button>
-      </form>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-</div>
+</section>
 @endsection
 
 @push('scripts')
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script>
-        const basePrices = {
-            1: 179,
-            2: 250
-        };
+<script>
+  const packages = document.querySelectorAll('.package-card');
 
-        function updatePrice(card) {
-            let total = basePrices[card];
-            const checkboxes = document.querySelectorAll(`.addon${card}`);
-            checkboxes.forEach(cb => {
-            if (cb.checked) total += parseInt(cb.value);
-            });
-            document.getElementById(`price${card}`).textContent = total;
+  packages.forEach(pkg => {
+    const basePrice = parseInt(pkg.querySelector('.total-price').textContent.replace('$', ''));
+    const totalPriceEl = pkg.querySelector('.total-price');
+    const addonInputs = pkg.querySelectorAll('.addon');
+
+    function updateTotal() {
+      let total = basePrice;
+      addonInputs.forEach(input => {
+        if (input.checked) {
+          total += parseInt(input.value);
         }
-    </script>
+      });
+      totalPriceEl.textContent = `$${total}`;
+    }
 
+    addonInputs.forEach(input => {
+      input.addEventListener('change', updateTotal);
+    });
+  });
+</script>
 
 @endpush
