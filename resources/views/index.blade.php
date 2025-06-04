@@ -88,34 +88,19 @@
         <div class="row pt-3 mt-4">
             <div class="col-12">
                 <div class="customer-stats w-4">
-                    <div class="customer-faces" style="margin: 0px auto;">
-                        <div class="avatar">
-                            <div class="customer-1-1">
-                                <img src="{{asset('assets/images/funnel/avatar.png')}}" alt="">
+                    <div class="container">
+                        <div class="top-center-wrapper">
+                            <div class="trustpilot-box">
+                                <div class="avatars">
+                                <img src="https://i.pravatar.cc/30?img=11" alt="avatar1">
+                                <img src="https://i.pravatar.cc/30?img=12" alt="avatar2">
+                                <img src="https://i.pravatar.cc/30?img=13" alt="avatar3">
+                                </div>
+                                <span>8,182</span>
+                                <span class="rating"><span class="rating-number">4.5</span> Rating</span>
+                                <span class="trustpilot-text">★ Trustpilot</span>
                             </div>
                         </div>
-                        <div class="avatar1">
-                            <div class="avatar2-1">
-                                <img src="{{asset('assets/images/funnel/avatar (2).png')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="avatar1">
-                            <div class="avatar3-1">
-                                <img src="{{asset('assets/images/funnel/avatar (1).png')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="stats-number">8,182</div>
-                    </div>
-                    <div class="number-and-text" style="margin: 0px auto;">
-                        <b class="stats-description">
-                        <span>4.5</span>
-                        <span class="span"> </span>
-                        <span class="rating">Rating</span>
-                        </b>
-                    </div>
-                    <div class="trustpilot-logotext" style="margin: 0px auto;">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#314D1C"><path d="m606-286-33-144 111-96-146-13-58-136v312l126 77ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"/></svg>
-                        <div class="trustpilot">Trustpilot</div>
                     </div>
                 </div>
             </div>
