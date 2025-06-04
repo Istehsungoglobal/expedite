@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-4">
 
-                        <img class="vector" alt="" src="{{url('assets/images/funnel/logo.png')}}">
+                        <img class="vector" alt="" style="width: 35%;" src="{{url('assets/images/funnel/logo.png')}}">
                         <div class="frame-footer">
                             <div class="at-expedite-footer">At Expedite Formation, we help entrepreneurs worldwide launch U.S. businesses fast, simple, and fully compliant.</div>
                             <div class="whether-youre-freelancing">Whether you're freelancing, building an e-commerce brand, or scaling a startup, we make business ownership borderless and accessible. Let’s grow, together.</div>
@@ -34,15 +34,15 @@
                         <div class="contact-parent">
                             <h1>Contact</h1>
                             <div class="contact-phone">
-                                <i class="fa-solid fa-phone"></i>
+                                <i style="color: white;" class="fa-solid fa-phone"></i>
                                 <span>mangcoding123@gmail.com</span>
                             </div>
                             <div class="contact-phone">
-                                <i class="fa-solid fa-envelope"></i>
+                                <i style="color: white;" class="fa-solid fa-envelope"></i>
                                 <span>(406) 555-0120</span>
                             </div>
                             <div class="contact-phone">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i style="color: white;" class="fa-solid fa-location-dot"></i>
                                 <span>2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
                             </div>
                         </div>
