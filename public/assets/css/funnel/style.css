@@ -1156,6 +1156,7 @@ a:active {
     .slider-wrapper {
       overflow: hidden;
       width: 100%;
+      margin-bottom: 12px;
     }
 
     .flag-card {
