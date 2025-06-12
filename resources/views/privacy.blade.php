@@ -83,11 +83,11 @@
         <p class="expedite-formation-us">Personal Information</p>
         <p class="expedite-formation-us">While using our Service, we will ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to:</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.1. Email address</p>
-        <p class="expedite-formation-us">0.2. First name and last name</p>
-        <p class="expedite-formation-us">0.3. Phone number</p>
-        <p class="expedite-formation-us">0.4. Address, Country, State, Province, ZIP/Postal code, City</p>
-        <p class="expedite-formation-us">0.5. Cookies and Usage Data</p>
+        <p class="expedite-formation-us" style="text-indent: 2em;">0.1. Email address</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. First name and last name</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. Phone number</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.4. Address, Country, State, Province, ZIP/Postal code, City</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.5. Cookies and Usage Data</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">We may use your Data to contact you with newsletters, marketing or promotional materials, and other information that may interest you. You may opt out of receiving any or all of these communications from us by following the unsubscribe link.</p>
         <p class="expedite-formation-us">&nbsp;</p>
@@ -107,10 +107,10 @@
         <p class="expedite-formation-us">You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may be unable to use some portions of our Service.</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">Examples of Cookies we use:</p>
-        <p class="expedite-formation-us">0.1. Session Cookies: We use Session Cookies to operate our Service.</p>
-        <p class="expedite-formation-us">0.2. Preference Cookies: We use Preference Cookies to remember your preferences and settings.</p>
-        <p class="expedite-formation-us">0.3. Security Cookies: We use Security Cookies for security purposes.</p>
-        <p class="expedite-formation-us">0.4. Advertising Cookies: Advertising Cookies are used to serve you with advertisements that may be relevant to you and your interests.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. Session Cookies: We use Session Cookies to operate our Service.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. Preference Cookies: We use Preference Cookies to remember your preferences and settings.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. Security Cookies: We use Security Cookies for security purposes.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.4. Advertising Cookies: Advertising Cookies are used to serve you with advertisements that may be relevant to you and your interests.</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">Other Data</p>
         <p class="expedite-formation-us">While using our Service, we may also collect the following information: sex, age, date of birth, place of birth, passport details, citizenship, registration at the site of residence and actual address, telephone number (work, mobile), details of documents on education, qualification, professional training, employment agreements, NDA agreements, information on bonuses and compensation, information on marital status, family members, social security (or other taxpayer identification) number, office location, and other data.</p>
@@ -118,19 +118,19 @@
         <p class="expedite-formation-us"> </p>
         <p class="expedite-formation-us">Use of Data</p>
         <p class="expedite-formation-us">Expedite Formation uses the collected data for various purposes, including:</p>
-        <p class="expedite-formation-us">0.1. to provide and maintain our Service;</p>
-        <p class="expedite-formation-us">0.2. to notify you about changes to our Service;</p>
-        <p class="expedite-formation-us">0.3. to allow you to participate in interactive features of our Service when you choose to do so;</p>
-        <p class="expedite-formation-us">0.4. to provide customer support;</p>
-        <p class="expedite-formation-us">0.5. to gather analysis or valuable information so that we can improve our Service;</p>
-        <p class="expedite-formation-us">0.6. to monitor the usage of our Service;</p>
-        <p class="expedite-formation-us">0.7. to detect, prevent, and address technical issues;</p>
-        <p class="expedite-formation-us">0.8. to fulfill any other purpose for which you provide it;</p>
-        <p class="expedite-formation-us">0.9. to carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection;</p>
-        <p class="expedite-formation-us">0.10. to provide you with notices about your account and/or subscription, including expiration and renewal notices, email instructions, etc.;</p>
-        <p class="expedite-formation-us">0.11. to provide you with news, special offers, and general information about other goods, services, and events that we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information,</p>
-        <p class="expedite-formation-us">0.12. in any other way, we may describe when you provide the information;</p>
-        <p class="expedite-formation-us">0.13. for any other purpose with your consent.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. to provide and maintain our Service;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. to notify you about changes to our Service;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. to allow you to participate in interactive features of our Service when you choose to do so;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.4. to provide customer support;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.5. to gather analysis or valuable information so that we can improve our Service;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.6. to monitor the usage of our Service;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.7. to detect, prevent, and address technical issues;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.8. to fulfill any other purpose for which you provide it;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.9. to carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.10. to provide you with notices about your account and/or subscription, including expiration and renewal notices, email instructions, etc.;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.11. to provide you with news, special offers, and general information about other goods, services, and events that we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information,</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.12. in any other way, we may describe when you provide the information;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.13. for any other purpose with your consent.</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">Retention of Data</p>
         <p class="expedite-formation-us">We will retain your Data only for as long as necessary for the purposes in this Privacy Policy. We will retain and use your Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
@@ -146,20 +146,20 @@
         <p class="expedite-formation-us">Disclosure of Data</p>
         <p class="expedite-formation-us">We may disclose personal information that we collect or that you provide for us:</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.1. Disclosure for Law Enforcement</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. Disclosure for Law Enforcement</p>
         <p class="expedite-formation-us">Under certain circumstances, we may be required to disclose your Data if required by law or in response to valid requests by public authorities.</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.2. Business Transaction</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. Business Transaction</p>
         <p class="expedite-formation-us">Your personal data may be transferred if our subsidiaries or we are involved in a merger, acquisition, or asset sale.</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.3. Other cases: We may also disclose your information:</p>
-        <p class="expedite-formation-us">0.3.1. to our subsidiaries and affiliates;</p>
-        <p class="expedite-formation-us">0.3.2. to contractors, service providers, and other third parties we use to support our business;</p>
-        <p class="expedite-formation-us">0.3.3. to fulfill the purpose for which you provide it;</p>
-        <p class="expedite-formation-us">0.3.4. to include your Company’s logo on our website;</p>
-        <p class="expedite-formation-us">0.3.5. for any other purpose disclosed by us when you provide the information;</p>
-        <p class="expedite-formation-us">0.3.6. with your consent in any other cases;</p>
-        <p class="expedite-formation-us">0.3.7. if we believe disclosure is necessary or appropriate to protect the rights, property, or safety of the Company, our customers, or others.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. Other cases: We may also disclose your information:</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.1. to our subsidiaries and affiliates;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.2. to contractors, service providers, and other third parties we use to support our business;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.3. to fulfill the purpose for which you provide it;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.4. to include your Company’s logo on our website;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.5. for any other purpose disclosed by us when you provide the information;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.6. with your consent in any other cases;</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.3.7. if we believe disclosure is necessary or appropriate to protect the rights, property, or safety of the Company, our customers, or others.</p>
         <p class="expedite-formation-us"> </p>
         <p class="expedite-formation-us">Security of Data</p>
         <p class="expedite-formation-us">The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its security.</p>
@@ -171,12 +171,12 @@
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">In certain circumstances, you have the following data protection rights:</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.1. The right to access, update, or delete the information we have on you;</p>
-        <p class="expedite-formation-us">0.2. The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete;</p>
-        <p class="expedite-formation-us">0.3. The right to object. You have the right to object to our processing of your Personal Data;</p>
-        <p class="expedite-formation-us">0.4. The right of restriction. You have the right to request that we restrict the processing of your personal information;</p>
-        <p class="expedite-formation-us">0.5. The right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable, and commonly used format;</p>
-        <p class="expedite-formation-us">0.6. The right to withdraw consent. You also have the right to withdraw your consent at any time when we rely on your support to process your personal information;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. The right to access, update, or delete the information we have on you;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. The right to object. You have the right to object to our processing of your Personal Data;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.4. The right of restriction. You have the right to request that we restrict the processing of your personal information;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.5. The right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable, and commonly used format;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.6. The right to withdraw consent. You also have the right to withdraw your consent at any time when we rely on your support to process your personal information;</p>
         <p class="expedite-formation-us">Please note that we may ask you to verify your identity before responding to such requests. Please note we may not be able to provide Service without some necessary data.</p>
         <p class="expedite-formation-us">You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. Please contact your local European Economic Area (EEA) data protection authority for more information.</p>
         <p class="expedite-formation-us">&nbsp;</p>
@@ -186,10 +186,10 @@
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">According to CalOPPA, we agree to the following:</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.1. users can visit our site anonymously;</p>
-        <p class="expedite-formation-us">0.2. our Privacy Policy link includes the word “Privacy” and can easily be found on the homepage of our website;</p>
-        <p class="expedite-formation-us">0.3. users will be notified of any privacy policy changes on our Privacy Policy Page;</p>
-        <p class="expedite-formation-us">0.4. users can change their personal information by emailing us at info@expediteformation.com.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. users can visit our site anonymously;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.2. our Privacy Policy link includes the word “Privacy” and can easily be found on the homepage of our website;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.3. users will be notified of any privacy policy changes on our Privacy Policy Page;</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.4. users can change their personal information by emailing us at info@expediteformation.com.</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">Our Policy on “Do Not Track” Signals</p>
         <p class="expedite-formation-us">We honor Do Not Track signals and do not track plant cookies or use advertising when a Do Not Track browser mechanism is in place. Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</p>
@@ -198,13 +198,13 @@
         <p class="expedite-formation-us">Your Data Protection Rights under the California Consumer Privacy Act (CCPA)</p>
         <p class="expedite-formation-us">If you are a California resident, you can learn what data we collect about you, ask to delete your data, and not sell (share) it. To exercise your data protection rights, you can make specific requests and ask us:</p>
         <p class="expedite-formation-us">&nbsp;</p>
-        <p class="expedite-formation-us">0.1. What personal information do we have about you? If you make this request, we will return to you:</p>
-        <p class="expedite-formation-us">0.0.1. The categories of personal information we have collected about you.</p>
-        <p class="expedite-formation-us">0.0.2. The categories of sources from which we collect your personal information.</p>
-        <p class="expedite-formation-us">0.0.3. The business or commercial purpose for collecting or selling personal information.</p>
-        <p class="expedite-formation-us">0.0.4. The categories of third parties with whom we share personal information.</p>
-        <p class="expedite-formation-us">0.0.5. The specific pieces of personal information we have collected about you.</p>
-        <p class="expedite-formation-us">0.0.6. A list of categories of personal information we have sold and the variety of any other company we sold it to. If we have yet to sell your data, we will inform you.</p>
+        <p class="expedite-formation-us"style="text-indent: 2em;">0.1. What personal information do we have about you? If you make this request, we will return to you:</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.1. The categories of personal information we have collected about you.</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.2. The categories of sources from which we collect your personal information.</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.3. The business or commercial purpose for collecting or selling personal information.</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.4. The categories of third parties with whom we share personal information.</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.5. The specific pieces of personal information we have collected about you.</p>
+        <p class="expedite-formation-us"style="text-indent: 4em;">0.0.6. A list of categories of personal information we have sold and the variety of any other company we sold it to. If we have yet to sell your data, we will inform you.</p>
         <p class="expedite-formation-us">0.0.7. A list of categories of personal information that we have disclosed for a business purpose, along with the variety of any other company we shared it with.</p>
         <p class="expedite-formation-us">&nbsp;</p>
         <p class="expedite-formation-us">Please note you are entitled to ask us to provide you with this information up to two times in a rolling twelve-month period. When you make this request, the information provided may be limited to the personal information we collected about you in the previous 12 months.</p>
