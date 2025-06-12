@@ -218,7 +218,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 everycol">
                 <img class="everyimg"  alt="" src="{{url('assets/images/funnel/every (1).jpg')}}">
             </div>
             <div class="col-md-8">
@@ -333,16 +333,18 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-12">
                 <div class="result-card shadow-sm mx-auto">
                     <div class="result-text">No Surprises. Just Results!!!</div>
                     <img src="{{url('assets/images/funnel/buss.png')}}" alt="Woman working at laptop">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8 col-md-12">
               <div class="packages">
-                  <!-- Package 1 -->
-                  <form action="">
+                  <div class="row">
+                      <div class="col-md-6">
+                            <!-- Package 1 -->
+                            <form action="">
                     <div class="package-card">
                       <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="font-size: 12px"><strong>Essential Formation</strong></div>
@@ -377,9 +379,11 @@
                         Get Started <span class="rarr">→</span>
                       </button>
                     </div>
-                  </form>
-                  <!-- Package 2 -->
-                  <form action="">
+                            </form>
+                      </div>
+                      <div class="col-md-6">
+                            <!-- Package 2 -->
+                            <form action="">
                       <div class="package-card">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                           <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
@@ -414,7 +418,9 @@
                           Get Started <span class="rarr">→</span>
                         </button>
                       </div>
-                  </form>
+                            </form>
+                      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -430,7 +436,7 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="row" style="background-color: #ccc;border-radius: 15px;padding: 10px;">
                     <div class="feature-box">
                         <div class="feature-text">
@@ -469,7 +475,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 mt-2">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="group-parent">
@@ -511,7 +517,7 @@
                             </div>
                         </div>
                         <div class="flag">
-                            <div class="slider-section" style="height: 89%;">
+                            <div class="slider-section" style="width: 90%;margin: 0px auto; height: 89%;">
                               <!-- Row 1 -->
                               <div class="slider-wrapper" style="line-height: 0px;">
                                 <div class="slider-row" style="    margin: 0px;">
@@ -674,16 +680,16 @@
         <div class="container testimonial-section">
             <div class="row align-items-center">
               <!-- Text Section -->
-              <div class="col-md-5 mb-4 mb-md-0">
+              <div class="col-lg-5 mb-4" style="padding: 0px 15px;">
                 <div class="gust-wanted-to">Gust wanted to share a quick note and let .</div>
                 <div class="i-just-wanted">I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</div>
-                <div class="contact-us-parent mt-5">
+                <div class="contact-us-parentg mt-5">
                   <div class="contact-us">Contact us</div>
                   <img class="frame-childcon" alt="" src="{{ url('assets/images/arr.png') }}">
                 </div>
               </div>
               <!-- Carousel Section -->
-              <div class="col-md-7 ratingview">
+              <div class="col-lg-7 ratingview">
                 <div class="row">
                     <div class="col-md-9">
                     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -778,7 +784,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-md-2 trustscore d-flex align-content-center flex-wrap">
+                <div class="col-md-2 col-sm-8 trustscore trusstars d-flex align-content-center flex-wrap">
                     <div class="mt-4">
                         <img src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
                         <div class="mt-2"><strong>Excellent</strong></div>
