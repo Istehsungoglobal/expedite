@@ -53,17 +53,13 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col">
-                <div class="enter-your-preferred-company-n-parent">
-                    <div class="enter-your-preferred">Company name</div>
-                    <div class="frame-wrapper">
-                        <div class="start-an-llc-parent">
-                            <div class="start-an-llc">LLC Start</div>
-                            <svg class="arrow-child" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f8561b"><path d="m600-200-57-56 184-184H80v-80h647L544-704l56-56 280 280-280 280Z"/></svg>
-
-                        </div>
-                    </div>
+                <div class="llc-input-container">
+                    <input type="text" class="llc-input-field" placeholder="Enter your preferred company name" />
+                    <button class="llc-submit-btn">
+                      Start an LLC <i class="lbtn">&#8594;</i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -865,7 +861,7 @@
                 <div class="frequently-asked-questions">Frequently Asked Questions</div>
                 <div class="offending-belonging-promotion">Offending belonging promotion provision an be oh consulted ourselves it. Blessing welcomed ladyship she met humoured sir breeding her. </div>
 
-                <div class="accordion" id="accordionExample">
+                <div class="accordion accdesign mt-5" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -930,12 +926,11 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <!--- ques --------->
 
-<section class="ques mt-5 mb-5">
+<section class="ques mt-5 mb-5 pt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -956,10 +951,12 @@
                             <div class="mb-3">
                               <input type="text" class="form-control" id="mass" placeholder="Write a massage" name="mass">
                             </div>
-                            <div class="contact-us-parent mt-5">
-                                <div class="contact-us">Contact us</div>
-                                <img class="frame-childcon" alt="" src="{{ url('assets/images/arr.png') }}">
-                            </div>
+                            <a href="#" class="contact-btn-wrapper">
+                                Contact Us
+                                <div class="contact-btn-icon">
+                                  &rarr;
+                                </div>
+                            </a>
                         </form>
                     </div>
                 </div>
@@ -969,7 +966,7 @@
 
 </section>
 
-<section class="blog mt-5 mb-5">
+<section class="blog mt-5 mb-5 pt-3">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -1004,17 +1001,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-us-parentblog mt-5">
-                  <div class="contact-us">Read More article</div>
-                  <img class="frame-childconblog" alt="" src="{{ url('assets/images/arr.png') }}">
-                </div>
+                
+                <div class="readmore-container">
+                    <a href="#" class="readmore-btn">
+                      Read More article
+                      <div class="readmore-icon">
+                        &rarr;
+                      </div>
+                    </a>
+                  </div>
             </div>
         </div>
     </div>
 </section>
 <!--- sub---->
 
-<section class="sub mt-5 mb-5">
+<section class="sub mt-5 mb-5 pt-4">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
