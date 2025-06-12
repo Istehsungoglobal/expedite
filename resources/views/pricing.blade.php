@@ -85,10 +85,9 @@
     }
     .simple-transparent {
         position: relative;
-        font-size: 40px;
+        font-size: clamp(1.5rem, 0.25rem + 4vw, 2.5rem);
         letter-spacing: -0.06em;
         line-height: 58px;
-        font-weight: 500;
         font-family: Poppins;
         color: #080808;
         text-align: center;
