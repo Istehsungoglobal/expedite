@@ -56,7 +56,7 @@
     }
     .simple-transparent {
         position: relative;
-        font-size: 30px;
+        font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
         letter-spacing: -0.06em;
         line-height: 58px;
         font-weight: 500;
@@ -176,7 +176,7 @@
     .about-transparent {
   
     position: relative;
-    font-size: 35px;
+    font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
     letter-spacing: -0.06em;
     line-height: 58px;
     font-weight: 500;
@@ -512,25 +512,45 @@
       color: #757575;
       margin-top: 20px;
     }
-    .note-section .btn-contact {
-      margin-top: 40px;
-      padding: 12px 24px;
-      font-weight: 600;
-      border-radius: 40px;
-      background: #0b0e36;
-      color: white;
-      box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+
+    .contact-btn-modern {
       display: inline-flex;
       align-items: center;
+      background-color: #fff;
+      border-radius: 50px;
+      box-shadow: 0 5px 20px rgba(78, 91, 255, 0.1);
+      padding: 10px 16px 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #1b1f4b;
       text-decoration: none;
+      transition: all 0.3s ease;
     }
-    .note-section .btn-contact:hover {
+
+    .contact-btn-modern:hover {
+      text-decoration: none;
+      box-shadow: 0 8px 25px rgba(78, 91, 255, 0.2);
+    }
+
+    .contact-btn-icon-right {
+      background-color: #1b1f4b;
       color: white;
-      background: #0b0e36;
+      width: 40px;
+      height: 40px;
+      margin-left: 14px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      transition: background 0.3s ease;
     }
-    .note-section .btn-contact i {
-      margin-left: 8px;
+
+    .contact-btn-modern:hover .contact-btn-icon-right {
+      background-color: #11143a;
     }
+
+
     .expedite {
       text-transform: uppercase;
     }
@@ -547,13 +567,11 @@
       margin: 0;
     }
     .entrepreneurs-move-fast-container {
-      font-size: 32px;
+      font-size: clamp(1.5rem, 0.875rem + 2vw, 2rem);
       letter-spacing: -0.04em;
-      font-weight: 500;
       font-family: Poppins;
       color: #080808;
       text-align: center;
-      display: inline-block;
     }
 
 
@@ -680,22 +698,8 @@
   </div>
 </div>
 
-<div class="offer-section d-flex flex-column flex-md-row align-items-center justify-content-between">
-  <div class="mb-4 mb-md-0 order-2 order-md-1">
-    <img src="{{ url('assets/images/offer.png') }}" alt="Businessman">
-  </div>
-  <div class="ms-md-4 text-rtl order-1 order-md-2">
-    <h5>What We Offer</h5>
-    <p>We provide all the essentials to establish and operate your U.S. business, so you can confidently launch.</p>
-    <ul>
-      <li>Business registration in the U.S.</li>
-      <li>Registered Agent Service</li>
-      <li>Business Address & Mail Handling</li>
-      <li>EIN (Tax ID) Registration</li>
-      <li>Payment Gateway Assistance</li>
-      <li>Ongoing Support</li>
-    </ul>
-  </div>
+<div class="container">
+  <img src="{{ url('assets/images/ss.png') }}" style="width: 100%;" alt="Businessman" disable>
 </div>
 
 <div class="container commitment-section">
@@ -731,6 +735,7 @@
       <p class="the-future-of">
         The future of business is borderless. Our goal is to make U.S. business registration simple, affordable, and stress-free so ambitious founders everywhere can take their business global.
       </p>
+
       <button class="get-started-btn">
         Get Started!
         <span class="arrow-circle">
@@ -743,14 +748,19 @@
 
 <div class="container mb-5 pb-5">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <div class="note-section">
         <h2>Gust wanted to share a quick note and let<span> .</span></h2>
         <p>I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you.</p>
-        <a href="#contact" class="btn-contact">Contact us <i class="bi bi-arrow-right"></i></a>
+        <a href="#" class="contact-btn-modern">
+          Contact us
+          <div class="contact-btn-icon-right">
+            →
+          </div>
+        </a>
       </div>
     </div>
-    <div class="col-md-6" style="position: relative">
+    <div class="col-lg-6" style="position: relative">
       <div class="testimonial-wrapper">
         <div class="slider-container">
           <div class="testimonial-card active">
@@ -758,11 +768,11 @@
             <img src="{{ url('assets/images/funnel/textimg.jpg') }}" alt="User" />
             <div class="stars">
               <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
               </div>
             </div>
             <h4 style="font-size: 16px;">Saima Islam <span class="country">USA</span></h4>
@@ -773,10 +783,10 @@
             <img src="{{ url('assets/images/funnel/routeman.png') }}" alt="User" />
             <div class="stars">
               <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
             </div>
@@ -788,27 +798,27 @@
             <img src="{{ url('assets/images/funnel/textimg.jpg') }}" alt="User" />
             <div class="stars">
               <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
+                <i class="fa-solid fa-star" style="color: green;"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
             </div>
             <h4 style="font-size: 16px;">Linda Chen <span class="country">Canada</span></h4>
             <p style="font-size: 14px;">"Reliable, efficient, and incredibly easy to use. Highly recommended!"</p>
           </div>
-          
         </div>
+        
         <div class="trustpilot-info">
           <h3><i class="fa-solid fa-star"></i> Trustpilot</h3>
           <p>Excellent</p>
           <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star" style="color: green;"></i>
+            <i class="fa-solid fa-star" style="color: green;"></i>
+            <i class="fa-solid fa-star" style="color: green;"></i>
+            <i class="fa-solid fa-star" style="color: green;"></i>
+            <i class="fa-solid fa-star" style="color: green;"></i>
           </div>
           <p>TrustScore 4.5 | <a href="#" style="color:white; text-decoration:underline">2537 reviews</a></p>
         </div>
@@ -833,7 +843,7 @@
       <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense.</p>
     </div>
 </div>
-<div class="container-flude mt-5 pb-5">
+<div class="container-flude mt-5 mb-5 pb-5">
   <div class="video-slider" id="videoSlider">
     <div class="video-card">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
