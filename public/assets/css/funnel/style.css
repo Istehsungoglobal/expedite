@@ -176,7 +176,7 @@ a:active {
 }
 .expedite-your-us-container {
 	position: relative;
-	font-size: 45px;
+	font-size: clamp(1.5625rem, 0rem + 5vw, 2.8125rem);
 	text-transform: uppercase;
 	text-align: center;
 	display: inline-block;
@@ -432,6 +432,23 @@ a:active {
   	font-family: Inter;
   	margin: 0px auto;
 }
+
+@media (max-width: 1130px) {
+
+    .customer-stats {
+        width: 35% !important;
+  }
+      
+}
+@media (max-width: 970px) {
+
+    .customer-stats {
+        width: 50% !important;
+  }
+      
+}
+
+
 /*slider logo */
 .logo-slider-wrapper {
       position: relative;
@@ -516,9 +533,8 @@ a:active {
 }
 .entrepreneurs-move-fast-container {
 		width: 80%;
-    font-size: 30px;
+    font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
     letter-spacing: -0.04em;
-    font-weight: 500;
     font-family: Poppins;
     color: #080808;
     text-align: center;
@@ -564,7 +580,7 @@ a:active {
 	height: 220px;
 	overflow: hidden;
 	text-align: center;
-	font-size: 80px;
+	font-size: clamp(2.5rem, -0.625rem + 10vw, 5rem);
 	color: #172155;
 	font-family: Poppins;
 }
@@ -604,6 +620,21 @@ a:active {
     margin: 0px auto;
 }
 
+@media (max-width: 1163px) {
+
+    .get-started-parent {
+        width: 20% !important;
+  }
+      
+}
+@media (max-width: 712px) {
+
+    .get-started-parent {
+        width: 25% !important;
+  }
+      
+}
+
 /*------------- everything-----------*/
 .everything {
 	position: relative;
@@ -633,10 +664,35 @@ a:active {
 	display: inline-block;
 	height: 154px;
 }
+@media (max-width: 767px) {
+
+    .everything-you-need-container {
+        text-align: center !important;
+  }
+      
+}
 .everyimg{
 	width:100%;
 	height: 60%;
 }
+@media (max-width: 767px) {
+
+    .everyimg {
+    		width: 75%;
+    		height: 45%;
+        display: block;
+    		margin: 0px auto;
+  }
+      
+}
+@media (max-width: 767px) {
+
+    .vector-icon {
+    		height: 35%;
+  }
+      
+}
+
 
 .carousel-inner {
       padding-top: 2rem;
@@ -665,7 +721,6 @@ a:active {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 22px;
       color: white;
       background: rgba(255,255,255,0.15);
       border: 1px solid white;
@@ -732,17 +787,26 @@ a:active {
     font-family: Inter;
 	}
 
+	@media (max-width: 970px) {
+
+    .get-started-parentblu {
+        width: 30% !important;
+  }
+      
+}
+
 
 .pick-the-best {
 		width: 50%;
 		position: relative;
-		font-size: 35px;
+		font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
 		font-weight: 500;
 		font-family: Poppins;
 		color: #080808;
 		text-align: center;
 		display: inline-block;
 }
+
 .result-card {
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -774,7 +838,7 @@ a:active {
       background: #fff;
       border-radius: 20px;
       padding: 30px 25px;
-      width: 360px;
+      width: 100%;
       box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 10%);
     }
     .package-card:hover {
@@ -907,7 +971,7 @@ a:active {
 .why-set-up {
 	
 	position: relative;
-	font-size: 35px;
+	font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
 	letter-spacing: -0.06em;
 	font-weight: 500;
 	font-family: Poppins;
@@ -929,7 +993,7 @@ a:active {
       max-width: 80%;
     }
     .feature-title {
-      font-size: 24px;
+      font-size: clamp(1.25rem, 0.9375rem + 1vw, 1.5rem);
       font-weight: 600;
       margin-bottom: 8px;
       line-height: 1.2;
@@ -959,8 +1023,8 @@ a:active {
 
 	.circlechild {
 	    position: absolute;
-	    top: 15px;
-	    left: 57%;
+	    top: 6%;
+    	right: 5%;
 	    width: 100px;
 	    height: 100px;
 	}
@@ -1055,9 +1119,8 @@ a:active {
 		background-color: rgba(141, 141, 141, 0.2);
 		height: 265px;
 		overflow: hidden;
-		flex-shrink: 0;
 		text-align: left;
-		font-size: 32px;
+		font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
 		color: #080808;
 		font-family: Poppins;
 		}
@@ -1076,8 +1139,6 @@ a:active {
 		display: inline-block;
 		}
 		.business-expansion-parent {
-
-		width: 270px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -1090,13 +1151,13 @@ a:active {
 		position: relative;
 		border-radius: 24px;
 		background-color: #172155;
-		height: 265px;
 		overflow: hidden;
 		flex-shrink: 0;
 		text-align: left;
-		font-size: 30px;
+		font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
 		color: #fff;
 		font-family: Poppins;
+		padding: 10px;
 		}
 
 
@@ -1109,7 +1170,7 @@ a:active {
 		}
 		.global-credibility
 		{
-			font-size: 30px;
+			font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
 			margin: 0px;
 			border-radius: 15px;
 		}
@@ -1117,12 +1178,12 @@ a:active {
 		position: absolute;
 		top: 30px;
 		left: 24px;
-		width: 393px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: flex-start;
 		gap: 12px;
+		padding: 0px 15px;
 		}
 
 		.frame-parentglobal {
@@ -1201,8 +1262,8 @@ a:active {
 
 	
 		.flag{
-			background-color:#e8e8e885;
-			border-radius: 15px;
+			  background-color: #e8e8e8;
+    		border-radius: 0px 0px 15px 15px;
 		}
 		.flag-icon {
 		width: 44px;
@@ -1245,7 +1306,6 @@ a:active {
 			position: relative;
 			border-radius: 40px;
 			background: linear-gradient(180deg, #659bdf, #2234a8);
-			height: 831px;
 			overflow: hidden;
 			text-align: left;
 			font-size: 24px;
@@ -1253,9 +1313,9 @@ a:active {
 			font-family: Poppins;
 		}
 		.routeh1{
-			    color: white;
+			  color: white;
 		    padding-left: 6%;
-		    font-size: 35px;
+		    font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
 		    margin-top: 10%;
 
 		}
@@ -1264,6 +1324,16 @@ a:active {
 			 color: white;
 		    font-size: 12px;
 		    margin-top: 10%;
+		}
+
+		@media (max-width: 767px) {
+
+    .routep {
+       	width: 90%;
+		    text-align: center;
+		    margin: 0px auto;
+		  }
+		      
 		}
 
 
@@ -1282,7 +1352,6 @@ a:active {
 		}
 		.divone{
 			  width: 208px;
-		    height: 102px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    left: 18%;
@@ -1326,7 +1395,6 @@ a:active {
 
 		.divtwo{
 			  width: 208px;
-		    height: 102px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    right: 17%;
@@ -1370,7 +1438,6 @@ a:active {
 
 		.divthree{
 			  width: 208px;
-		    height: 102px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    left: 10%;
@@ -1413,7 +1480,6 @@ a:active {
 		}
 		.divfour{
 			  width: 208px;
-		    height: 102px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    right: 15%;
@@ -1453,6 +1519,32 @@ a:active {
 			
 			color: white;
 			cursor: pointer;
+		}
+
+
+		@media (max-width: 988px) {
+
+    .divone {
+    		width: 15%;
+       	left: 14%;
+    		top: 16%;
+		  }
+		.divtwo {
+    		width: 15%;
+       	right: 13%;
+    		top: 19%;
+		  }
+		.divthree {
+    		width: 15%;
+       	left: 17%;
+    		bottom: 9%;
+		  }
+		.divfour {
+    		width: 15%;
+       	right: 19%;
+        bottom: 8%;
+		  }
+		      
 		}
 
 
@@ -1601,10 +1693,9 @@ a:active {
     .gust-wanted-to {
 		width: 100%;
 		position: relative;
-		font-size: 30px;
+		font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
 		letter-spacing: -0.04em;
 		line-height: 46px;
-		font-weight: 500;
 		font-family: Poppins;
 		color: #080808;
 		text-align: left;
@@ -1631,7 +1722,7 @@ a:active {
 		    border-radius: 40px;
 		    height: 35px;
 			}
-			.contact-us-parent {
+			.contact-us-parentg {
 					position: relative;
 					box-shadow: 0px 8px 20px rgba(107, 78, 252, 0.2);
 					border-radius: 40px;
@@ -1650,6 +1741,8 @@ a:active {
 					color: #fff;
 					font-family: Inter;
 			}
+
+			
 			.expedite {
 				text-transform: uppercase;
 			}
@@ -1667,7 +1760,7 @@ a:active {
 			}
 			.entrepreneurs-move-fast-container {
 				position: relative;
-				font-size: 32px;
+				font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
 				letter-spacing: -0.04em;
 				font-weight: 500;
 				font-family: Poppins;
@@ -2132,5 +2225,18 @@ text-align: center;
         margin: 15px auto;
         z-index: 999;
     }
+
+    @media (max-width: 767px) {
+
+    .trusstars {
+       align-content:none !important;
+       flex-wrap: none !important;
+       display: block !important;
+       text-align: center;
+       margin: 0px auto;
+;
+  }
+      
+}
 
 
