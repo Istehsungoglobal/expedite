@@ -63,20 +63,20 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-12">
-                <div class="frame-parent">
-                    <div class="rectangle-div">
-                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
-                       <div class="start">No Delays</div>
+                <div class="frame-parenticon">
+                    <div class="rectangle-div" style="background-color: #F9FAFF;padding: 5px 5px;">
+                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/m.png')}}">
+                       <div class="start"  style="display: inline;">No Delays</div>
                     </div>
-                    <div class="rectangle-div">
-                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
-                       <div class="start">No Hassles</div>
+                    <div class="rectangle-div" style="background-color: #FFF8F5;padding: 5px 5px;">
+                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/m.png')}}">
+                       <div class="start" style="display: inline;">No Hassles</div>
                     </div>
-                    <div class="rectangle-div">
-                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/funnel/w3.png')}}">
-                       <div class="start">No Hidden Fees</div>
+                    <div class="rectangle-div" style="background-color: #F9FAFF;padding: 5px 5px;">
+                       <img class="magic-wand-1-icon" alt="" src="{{asset('assets/images/m.png')}}">
+                       <div class="start"  style="display: inline;">No Hidden Fees</div>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
         </div>
 
         <div class="row pt-3">
-            <div class="col-md-3 p-1">
+            <div class="col-md-3 col-sm-6 p-1">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">30+</div>
@@ -167,7 +167,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 p-1">
+            <div class="col-md-3 col-sm-6 p-1">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">2k+</div>
@@ -175,7 +175,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3 p-1">
+            <div class="col-md-3 col-sm-6 p-1">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">2k+</div>
@@ -183,7 +183,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3 p-1">
+            <div class="col-md-3 col-sm-6 p-1">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">5+</div>
