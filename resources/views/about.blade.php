@@ -144,7 +144,7 @@
 
     .video-box img {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: block;
       filter: brightness(95%);
     }
@@ -185,6 +185,12 @@
     text-align: left;
     display: inline-block;
     }
+    
+
+    
+
+
+    
 
     .at-expedite-formation {
     font-size: 20px;
@@ -367,13 +373,9 @@
       margin-left: 10px;
       font-size: 16px;
     }
-
     .get-started-btn:hover {
       opacity: 0.95;
     }
-
-
-
     .testimonial-wrapper {
         height: 100%;
         margin: 50px auto;
