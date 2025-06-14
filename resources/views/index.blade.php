@@ -187,7 +187,7 @@
                 <div class="expedite-your-us-container">
                     <span class="expedite-your">Expedite YOUR </span>
                     <span class="us-company-formation">U.S. COMPANY formation</span>
-                    <span class="dominate-your"> Dominate Your<div class="svgdiv" style="display: inline-block;background-color:#f8561b ;line-height: 9px;border-radius: 45px 50px 50px 45px;width:75px; margin-left: 10px;padding:2px"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div>Industry.</span>
+                    <span class="dominate-your"> Dominate Your<div class="svgdiv" style="display: inline-block;background-color:#f8561b ;line-height: 9px;border-radius: 50px 50px 50px 50px;width:80px; margin-left: 10px;padding:4px 5px"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div>Industry.</span>
 
                 </div>
             </div>
@@ -363,7 +363,7 @@
             <div class="col-md-4 everycol">
                 <img class="everyimg"  alt="" src="{{url('assets/images/funnel/every (1).jpg')}}">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" style="position: relative">
                 <div id="serviceSlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <!-- Slide 1 -->
@@ -457,14 +457,16 @@
                       </div>
                     </div>
                 </div>
+                <div class="row"  >
+                  <div class="get-started-parentblu">
+                    <div class="get-starteds">Get Started</div>
+                    <img class="frame-childarrblu" alt="" src="{{ url('assets/images/arrblu.png') }}">
+                  </div>
             </div>
+            </div>
+
         </div>
-        <div class="row mb-5"  style="position: relative">
-              <div class="get-started-parentblu mt-5">
-                <div class="get-starteds">Get Started</div>
-                <img class="frame-childarrblu" alt="" src="{{ url('assets/images/arrblu.png') }}">
-              </div>
-        </div>
+        
 </section>
 <!-- business part -->
 <section class="business pt-5 mt-4">
@@ -487,79 +489,79 @@
                       <div class="col-md-6">
                             <!-- Package 1 -->
                             <form action="">
-                    <div class="package-card">
-                      <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="font-size: 12px"><strong>Essential Formation</strong></div>
-                        <div class="label-tag">Standard Delivery Timeline</div>
-                      </div>
+                                <div class="package-card active">
+                                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div style="font-size: 12px"><strong>Essential Formation</strong></div>
+                                    <div class="label-tag">Standard Delivery Timeline</div>
+                                  </div>
 
-                      <div class="price-row">
-                        <h2 class="total-price">$179</h2>
-                        <span>/Year</span>
-                      </div>
+                                  <div class="price-row">
+                                    <h2 class="total-price">$179</h2>
+                                    <span>/Year</span>
+                                  </div>
 
-                      <ul class="feature-list">
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
-                        <li class="feature-item"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
-                        <li class="feature-item disabled" style="position: relative;">
-                          <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
-                          <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
-                          </label>
-                        </li>
-                        <li class="feature-item disabled" style="position: relative;">
-                          <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
-                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
-                          </label>
-                        </li>
-                      </ul>
+                                  <ul class="feature-list">
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
+                                    <li class="feature-item"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
+                                    <li class="feature-item disabled" style="position: relative;">
+                                      <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
+                                      <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
+                                      </label>
+                                    </li>
+                                    <li class="feature-item disabled" style="position: relative;">
+                                      <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
+                                        <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
+                                      </label>
+                                    </li>
+                                  </ul>
 
-                      <button class="total-btn">
-                        Get Started <span class="rarr">→</span>
-                      </button>
-                    </div>
+                                  <button class="total-btn" style="color: #172155;">
+                                    Get Started <span class="rarr" style="background-color: #F8561B;color: white;">→</span>
+                                  </button>
+                                </div>
                             </form>
                       </div>
                       <div class="col-md-6">
                             <!-- Package 2 -->
                             <form action="">
-                      <div class="package-card">
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                          <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
-                          <div class="label-tag">Priority Handling & Fast Delivery</div>
-                        </div>
+                                  <div class="package-card">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                      <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
+                                      <div class="label-tag">Priority Handling & Fast Delivery</div>
+                                    </div>
 
-                        <div class="price-row">
-                          <h2 class="total-price">$179</h2>
-                          <span>/Year</span>
-                        </div>
+                                    <div class="price-row">
+                                      <h2 class="total-price">$179</h2>
+                                      <span>/Year</span>
+                                    </div>
 
-                        <ul class="feature-list">
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
-                          <li class="feature-item"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
-                          <li class="feature-item disabled" style="position: relative;">
-                            <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
-                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
-                            </label>
-                          </li>
-                          <li class="feature-item disabled" style="position: relative;">
-                            <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
-                            <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
-                            </label>
-                          </li>
-                        </ul>
+                                    <ul class="feature-list">
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> US Business Registration</label></li>
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> Registered Agent</label></li>
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> Mail Forwarding</label></li>
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> EIN (Tax ID)</label></li>
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> Business Stripe Account Setup</label></li>
+                                      <li class="feature-items"><label><input type="checkbox" checked disabled> Email & Dashboard Support</label></li>
+                                      <li class="feature-item disabled" style="position: relative;">
+                                        <label><input type="checkbox" class="addon" value="299"> ITIN ($299)
+                                        <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="299" >
+                                        </label>
+                                      </li>
+                                      <li class="feature-item disabled" style="position: relative;">
+                                        <label><input type="checkbox" class="addon" value="149"> Business Bank ($149)
+                                        <img src="{{ url('assets/images/addicon.png') }}" class="addplushome addon-toggle addon" value="149" >
+                                        </label>
+                                      </li>
+                                    </ul>
 
-                        <button class="total-btn">
-                          Get Started <span class="rarr">→</span>
-                        </button>
-                      </div>
+                                    <button class="total-btn">
+                                      Get Started <span class="rarr">→</span>
+                                    </button>
+                                  </div>
                             </form>
                       </div>
                   </div>
@@ -708,8 +710,8 @@
 
 <!---- Route ---->
 
-<section class="route">
-    <div class="container">
+<section class="route mb-5">
+    <div class="container" style="margin-bottom:7%">
         <div class="group-333-1-parent">
             <div class="row">
                 <div class="col-md-6 ">
@@ -723,7 +725,7 @@
             <div class="row">
                 <div class="col routemancol">
                     <img class="routeman" src="{{url('assets/images/funnel/routeman.png')}}" alt="">
-                    <div class="divone">
+                    <div class="divone actives">
                         <h6>Step 1</h6>
                         <p>Choose Your Package</p>
                     </div>
@@ -747,7 +749,7 @@
 
 
 <!--- client logo -->
-<section class="clientlogo">
+<section class="clientlogo mt-5 mb-5">
     <div class="container">
       <div class="brand-strip-container">
         <div class="fade-overlay-left"></div>
@@ -819,8 +821,8 @@
 
 <!----- textmoniel   ----->
 
-<section class="textmoniel">
-    <div class="container">
+<section class="textmoniel mt-5">
+    <div class="container" style="margin-top: 7%;">
         <div class="final-container">
             <!-- LEFT -->
             <div class="final-left">
@@ -863,9 +865,12 @@
 
 
 
+
+
+
 <section>
-    <div class="container">
-      <div class="container-flude mt-5 pb-5">
+    <div class="container" style="margin-top: 7%;">
+      <div class="container-flude pb-5">
           <div class="video-slider-section">
               <div class="expedite-formation-journey-container">
                   <span class="expedite">Expedite</span> FORMATION Journey
@@ -875,9 +880,6 @@
                 <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense.</p>
               </div>
               <div class="video-slider" id="videoSlider">
-                <div class="video-card">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
                 <div class="video-card">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
