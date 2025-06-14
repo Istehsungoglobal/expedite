@@ -6,26 +6,36 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" />
 
 <style>
-.pricing-card {
+    .pricing-card {
       background-color: #ffffff;
-      color: #0a1c4f;
+      color: #8d8d8d;
       border-radius: 20px;
       padding: 30px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
       margin: auto;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
-
-    .pricing-card:hover {
-      background-color: #0a1c4f;
-      color: #ffffff;
+    .package-cardone{
+      background-color: #fff;
+      color: #656565;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
-
-    .pricing-card:hover .badge-plan {
-      background-color: #ffffff;
-      color: #0a1c4f;
+    .package-cardone ul li{
+      color: #656565;
     }
-
+    .package-cardprices {
+      background-color: #172155;
+      color: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
     .badge-plan {
       background-color: #0a1c4f;
       color: #ffffff;
@@ -102,6 +112,21 @@
         top: 0px;
         margin: auto;
     }
+    .pricepackages{
+      justify-content:center;
+    }
+    .total-btns{
+      color: #172155;
+    }
+    .rarrs{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      padding: 5px;
+      background-color:#172155;
+      color: #fff;
+
+    }
 </style>
 
 @endpush
@@ -117,13 +142,13 @@
         <div class="row">
            
             <div class="col-md-12">
-              <div class="packages">
+              <div class="packages pricepackages">
                   <!-- Package 1 -->
-                  <form action="">
-                    <div class="package-card">
+                  <form action="" style="margin: 5px;">
+                    <div class="package-cardone">
                       <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="font-size: 12px"><strong>Essential Formation</strong></div>
-                        <div class="label-tag">Standard Delivery Timeline</div>
+                        <div class="label-tag" style="margin-left: 2px;">Standard Delivery Timeline</div>
                       </div>
 
                       <div class="price-row">
@@ -156,15 +181,15 @@
                     </div>
                   </form>
                   <!-- Package 2 -->
-                  <form action="">
-                      <div class="package-card">
+                  <form action="" style="margin: 5px;">
+                      <div class="package-cardprices">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                           <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
-                          <div class="label-tag">Priority Handling & Fast Delivery</div>
+                          <div class="label-tag" style="margin-left: 2px;color: #172155;">Priority Handling & Fast Delivery</div>
                         </div>
 
                         <div class="price-row">
-                          <h2 class="total-price">$179</h2>
+                          <h2 class="total-price">$250</h2>
                           <span>/Year</span>
                         </div>
 
@@ -188,7 +213,7 @@
                         </ul>
 
                         <button class="total-btn">
-                          Get Started <span class="rarr">→</span>
+                          Get Started <span class="rarrs">→</span>
                         </button>
                       </div>
                   </form>
