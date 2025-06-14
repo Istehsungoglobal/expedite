@@ -815,6 +815,7 @@ a:active {
 }
 
 .result-card {
+    height: 90%;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 15px;
@@ -939,29 +940,9 @@ a:active {
     .total-btn span {
       font-size: 20px;
     }
-    .package-card:hover h2.total-price {
-		  color: #fff;
-		}
+   
 
-		.package-card:hover .feature-item {
-		  color: #fff;
-		}
-
-		.package-card:hover .feature-item.disabled {
-		  color: #bbb;
-		}
-
-		.package-card:hover .total-btn {
-		  background: #fff;
-		  color: #0a1c4f;
-		}
-
-		.package-card:hover .total-btn span {
-		  color: #fff;
-		  background: #f45c25;
-		  border-radius: 50%;
-		  padding: 5px 10px;
-		}
+		
 		.addplushome{
       position: absolute;
       right: 10%;
