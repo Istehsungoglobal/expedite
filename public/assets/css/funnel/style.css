@@ -541,7 +541,7 @@ a:active {
 }
 .entrepreneurs-move-fast-container {
 		width: 80%;
-    font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
+    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
     letter-spacing: -0.04em;
     font-family: Poppins;
     color: #080808;
@@ -647,7 +647,6 @@ a:active {
 .everything {
 	position: relative;
 	background: linear-gradient(180deg, #2234a8, #659bdf);
-	overflow: hidden;
 	text-align: left;
 	font-size: 18px;
 	color: #172155;
@@ -656,6 +655,7 @@ a:active {
 
 .vector-icon {
 	position: absolute;
+  width: 100%;
 	
 }
 .everything-you-need {
@@ -664,13 +664,12 @@ a:active {
 .everything-you-need-container {
 	width: 100%;
 	position: relative;
-	font-size: 30px;
-	font-weight: 500;
+	font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
 	font-family: Poppins;
 	color: #fff;
+  margin-bottom:10px;
 	text-align: left;
 	display: inline-block;
-	height: 154px;
 }
 @media (max-width: 767px) {
 
@@ -696,7 +695,7 @@ a:active {
 @media (max-width: 767px) {
 
     .vector-icon {
-    		height: 35%;
+    		height: 28%;
   }
       
 }
@@ -774,13 +773,13 @@ a:active {
 	}
 	.get-started-parentblu {
 		position: absolute;
-    right: 6%;
-    bottom: 0px;
+    right: 8%;
+    bottom: 74px;
     margin: auto;
     box-shadow: 0px 8px 20px rgba(107, 78, 252, 0.2);
     border-radius: 40px;
     background-color: #fff;
-    width: 14%;
+    width: 22%;
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -798,7 +797,7 @@ a:active {
 	@media (max-width: 970px) {
 
     .get-started-parentblu {
-        width: 30% !important;
+        width: 19% !important;
   }
       
 }
@@ -838,8 +837,6 @@ a:active {
 		.packages {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
     }
 
     .package-card {
@@ -849,12 +846,12 @@ a:active {
       width: 100%;
       box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 10%);
     }
-    .package-card:hover {
+    .active {
 		  background-color: #0a1c4f;
 		  transition: all 0.3s ease;
 		  color: #fff;
 		}
-		.package-card:hover .label-tag {
+		.active .label-tag {
 		  background-color: #fff;
 		  color: #0a1c4f;
 		}
@@ -892,8 +889,15 @@ a:active {
       padding: 0;
       margin: 0;
     }
-
     .feature-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0;
+      color: #fff;
+    }
+
+    .feature-items {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -1331,7 +1335,7 @@ a:active {
 		.routep{
 			 color: white;
 		    font-size: 12px;
-		    margin-top: 10%;
+		    margin-top: 22%;
 		}
 
 		@media (max-width: 767px) {
@@ -1382,7 +1386,7 @@ a:active {
 		    font-size: 15px;
 		}
 
-		.divone:hover{
+		.actives{
 			background-color:#F8561B ;
 			color: white;
 			cursor:pointer ;
@@ -1390,12 +1394,12 @@ a:active {
 			box-shadow: 7px 8px 14px 0px #121524;
 		}
 
-		.divone:hover h6{
+		.actives h6{
 			
 			color: white;
 			cursor: pointer;
 		}
-		.divone:hover p{
+		.actives p{
 			
 			color: white;
 			cursor: pointer;
@@ -1425,25 +1429,7 @@ a:active {
 		    font-size: 15px;
 		}
 
-		.divtwo:hover{
-			background-color:#F8561B ;
-			color: white;
-			cursor:pointer ;
-			z-index: 999;
-			box-shadow: 7px 8px 14px 0px #121524;
-		}
-
-		.divtwo:hover h6{
-			
-			color: white;
-			cursor: pointer;
-		}
-		.divtwo:hover p{
-			
-			color: white;
-			cursor: pointer;
-		}
-
+		
 		.divthree{
 			  width: 208px;
 		    background-color: #FFFFFF;
@@ -1468,24 +1454,7 @@ a:active {
 		    font-size: 15px;
 		}
 
-		.divthree:hover{
-			background-color:#F8561B ;
-			color: white;
-			cursor:pointer ;
-			z-index: 999;
-			box-shadow: 7px 8px 14px 0px #121524;
-		}
-
-		.divthree:hover h6{
-			
-			color: white;
-			cursor: pointer;
-		}
-		.divthree:hover p{
-			
-			color: white;
-			cursor: pointer;
-		}
+		
 		.divfour{
 			  width: 208px;
 		    background-color: #FFFFFF;
@@ -1510,25 +1479,7 @@ a:active {
 		    font-size: 15px;
 		}
 
-		.divfour:hover{
-			background-color:#F8561B ;
-			color: white;
-			cursor:pointer ;
-			z-index: 999;
-			box-shadow: 7px 8px 14px 0px #121524;
-		}
-
-		.divfour:hover h6{
-			
-			color: white;
-			cursor: pointer;
-		}
-		.divfour:hover p{
-			
-			color: white;
-			cursor: pointer;
-		}
-
+		
 
 		@media (max-width: 988px) {
 
@@ -2286,5 +2237,6 @@ text-align: center;
   }
       
 }
+
 
 
