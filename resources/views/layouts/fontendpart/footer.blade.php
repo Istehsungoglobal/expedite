@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-4">
 
-                        <img class="vector" alt="" style="width: 35%;" src="{{url('assets/images/funnel/logo.png')}}">
+                        <img class="vector" alt="" style="width: 75%;" src="{{url('assets/images/logo-1.png')}}">
                         <div class="frame-footer">
                             <div class="at-expedite-footer">At Expedite Formation, we help entrepreneurs worldwide launch U.S. businesses fast, simple, and fully compliant.</div>
                             <div class="whether-youre-freelancing">Whether you're freelancing, building an e-commerce brand, or scaling a startup, we make business ownership borderless and accessible. Let’s grow, together.</div>
