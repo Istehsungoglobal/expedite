@@ -8,7 +8,153 @@
 
 
 <style>
+    .final-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
 
+    .final-left {
+      flex: 1 1 350px;
+    }
+
+    .final-left h2 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .final-left p {
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+   
+
+    .final-right {
+      flex: 1 1 600px;
+      background: linear-gradient(to bottom right, #1c3fd2, #3b83f6);
+      border-radius: 20px;
+      padding: 40px 20px 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      border: 9px solid white;
+    }
+
+    .final-slider-wrapper {
+      position: relative;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .testimonial-card {
+      width: 300px;
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      position: absolute;
+      transition: all 0.5s ease;
+      opacity: 0;
+      filter: blur(2px);
+      transform: scale(0.85);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .testimonial-card.center {
+      position: relative;
+      opacity: 1;
+      filter: none;
+      transform: scale(1);
+      z-index: 3;
+    }
+
+
+    .testimonial-card.left {
+      transform: translateX(-250px) scale(0.85);
+      opacity: 0.4;
+      z-index: 1;
+    }
+
+    .testimonial-card.right {
+      transform: translateX(250px) scale(0.85);
+      opacity: 0.4;
+      z-index: 1;
+    }
+
+    .testimonial-card img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      margin: 10px 0;
+    }
+
+    .stars img {
+      width: 18px;
+      margin-right: 3px;
+    }
+
+    .name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .country {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .date {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .message {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+    }
+    .trusexce{
+        font-size: 18px;
+        line-height: 26px;
+        font-family: Poppins;
+        color: #fff;
+        text-align: left;
+    }
+    .retrus{
+        font-size: 12px;
+        text-align: left;
+    }
+   
+
+    @media (max-width: 768px) {
+      .final-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .testimonial-card.left,
+      .testimonial-card.right {
+        display: none;
+      }
+
+      .final-slider-wrapper {
+        height: auto;
+      }
+    }
 </style>
 @endpush
 
@@ -49,7 +195,7 @@
         <div class="row">
             <div class="col">
                 <div class="confidential-remote-container">
-                    <span class=" fastest">100%</span><span class="confidential-remote"><span class="officia"> Confidential & Remote |</span><span class="fastest"> </span></span><span class="fastest"><span>Fastest</span></span><span class="set-up-in-the"> Set-up in the Industry | Stripe & Bank-</span><span class=" fastest">Ready</span><span class="set-up-in-the"> Access | </span><span class="officia"><span class=" fastest">Officia</span></span><span class="confidential-remote"><span class="officia">l</span><span> U.S. Address.</span></span>
+                    <span class=" fastest">100%</span><span class="confidential-remote"><span class="officia"> Confidential & Remote |</span><span class="fastest"> </span></span><span class="fastest"><span>Fastest</span></span><span class="set-up-in-the"> Set-up in the Industry | Stripe & Bank-</span><span class=" fastest">Ready</span><span class="set-up-in-the"> Access | </span><span class="officia"><span class=" fastest">Officia</span></span><span class="confidential-remote"><span class="officia">l </span><span> U.S. Address.</span></span>
                 </div>
             </div>
         </div>
@@ -669,136 +815,49 @@
       </div>
     </div>
 </section>
+
+
 <!----- textmoniel   ----->
 
 <section class="textmoniel">
     <div class="container">
-        <div class="container testimonial-section">
-            <div class="row align-items-center">
-              <!-- Text Section -->
-              <div class="col-lg-5 mb-4" style="padding: 0px 15px;">
-                <div class="gust-wanted-to">Gust wanted to share a quick note and let .</div>
-                <div class="i-just-wanted">I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</div>
-                <div class="contact-us-parentg mt-5">
+        <div class="final-container">
+            <!-- LEFT -->
+            <div class="final-left">
+              <h2>Gust wanted to share a quick note and let.</h2>
+              <p>Just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</p>
+              <div class="contact-us-parentg mt-5">
                   <div class="contact-us">Contact us</div>
                   <img class="frame-childcon" alt="" src="{{ url('assets/images/arr.png') }}">
-                </div>
-              </div>
-              <!-- Carousel Section -->
-              <div class="col-lg-7 ratingview">
-                <div class="row">
-                    <div class="col-md-9">
-                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <!-- Slide 1 -->
-                        <div class="carousel-item active text-center">
-                          <div class="testimonial-card">
-                            <small style="color: black;">24/06/2025</small>
-                            <div class="d-flex align-items-center mt-2">
-                              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile" class="profile me-2" />
-                              <div>
-                                <strong style="color: black;">Saima Islam</strong><br />
-                                <small class="text-muted">USA</small>
-                              </div>
-                            </div>
-                            <div class="trustpilot-stars mt-2">
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star inactive">★</span>
-                            </div>
-                            <p class="mt-2 text-muted small">“Super lovely product. I love this product because the software is brilliantly helpful. Can't get enough!”</p>
-                          </div>
-                        </div>
-                        <!-- Slide 2 -->
-                         <div class="carousel-item text-center">
-                          <div class="testimonial-card">
-                            <small style="color: black;">24/06/2025</small>
-                            <div class="d-flex align-items-center mt-2">
-                              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile" class="profile me-2" />
-                              <div>
-                                <strong style="color: black;">Saima Islam</strong><br />
-                                <small class="text-muted">USA</small>
-                              </div>
-                            </div>
-                            <div class="trustpilot-stars mt-2">
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star inactive">★</span>
-                            </div>
-                            <p class="mt-2 text-muted small">“Super lovely product. I love this product because the software is brilliantly helpful. Can't get enough!”</p>
-                          </div>
-                        </div>
-                         <div class="carousel-item text-center">
-                          <div class="testimonial-card">
-                            <small style="color: black;">24/06/2025</small>
-                            <div class="d-flex align-items-center mt-2">
-                              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile" class="profile me-2" />
-                              <div>
-                                <strong style="color: black;">Saima Islam</strong><br />
-                                <small class="text-muted">USA</small>
-                              </div>
-                            </div>
-                            <div class="trustpilot-stars mt-2">
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star inactive">★</span>
-                            </div>
-                            <p class="mt-2 text-muted small">“Super lovely product. I love this product because the software is brilliantly helpful. Can't get enough!”</p>
-                          </div>
-                        </div>
-                         <div class="carousel-item text-center">
-                          <div class="testimonial-card">
-                            <small style="color: black;">24/06/2025</small>
-                            <div class="d-flex align-items-center mt-2">
-                              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile" class="profile me-2" />
-                              <div>
-                                <strong style="color: black;">Saima Islam</strong><br />
-                                <small class="text-muted">USA</small>
-                              </div>
-                            </div>
-                            <div class="trustpilot-stars mt-2">
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star">★</span>
-                              <span class="star inactive">★</span>
-                            </div>
-                            <p class="mt-2 text-muted small">“Super lovely product. I love this product because the software is brilliantly helpful. Can't get enough!”</p>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Indicators -->
-                      <div class="carousel-indicators position-static mt-3">
-                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-8 trustscore trusstars d-flex align-content-center flex-wrap">
-                    <div class="mt-4">
-                        <img src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
-                        <div class="mt-2"><strong>Excellent</strong></div>
-                        <div class="trustpilot-stars">
-                          <span class="star">★</span>
-                          <span class="star">★</span>
-                          <span class="star">★</span>
-                          <span class="star">★</span>
-                          <span class="star inactive">★</span>
-                        </div>
-                        <div class="text-white mt-1">TrustScore 4.5 | 25,327 reviews</div>
-                      </div>
-                </div>
-                </div>
+               </div>
+            </div>
 
+            <!-- RIGHT -->
+            <div class="final-right">
+              <div class="row">
+                  <div class="col-md-8" style="overflow: hidden;">
+                      <div class="final-slider-wrapper" id="testimonialSlider">
+                          <!-- Cards will be rendered here -->
+                      </div>
+                  </div>
+                  <div class="col-md-4" style="position: relative;">
+                      <!-- Trustpilot -->
+                            <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
+                                <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
+                                <div class="mt-2 trusexce">Excellent</div>
+                                <div class="trustpilot-stars" style="text-align: left;">
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star inactive">★</span>
+                                </div>
+                                <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
+                            </div>
+                  </div>
               </div>
             </div>
-          </div>
+        </div>
     </div>
 </section>
 
@@ -1065,6 +1124,87 @@
     });
   });
 </script>
+
+<script>
+    const testimonials = [
+      {
+        name: "Saima Islam",
+        country: "USA",
+        date: "24/08/2026",
+        image: "https://randomuser.me/api/portraits/women/79.jpg",
+        message: "Super lovely product. I love this product because the software is brilliantly helpful. Can’t get enough!"
+      },
+      {
+        name: "John Carter",
+        country: "Canada",
+        date: "10/01/2026",
+        image: "https://randomuser.me/api/portraits/men/65.jpg",
+        message: "Professional and easy to use. This tool has saved me hours!"
+      },
+      {
+        name: "Elena Cruz",
+        country: "UK",
+        date: "15/03/2026",
+        image: "https://randomuser.me/api/portraits/women/12.jpg",
+        message: "Stylish design and seamless experience. Love it!"
+      },
+      {
+        name: "Carlos Mendez",
+        country: "Mexico",
+        date: "05/06/2025",
+        image: "https://randomuser.me/api/portraits/men/30.jpg",
+        message: "Absolutely smooth. Everything works exactly as I expected!"
+      },
+      {
+        name: "Linda Zhou",
+        country: "Singapore",
+        date: "11/12/2025",
+        image: "https://randomuser.me/api/portraits/women/33.jpg",
+        message: "A clean UI and fast performance. Would definitely recommend it."
+      }
+    ];
+
+    const sliderContainer = document.getElementById("testimonialSlider");
+    let activeIndex = 0;
+
+    function renderSlider() {
+      sliderContainer.innerHTML = '';
+
+      const left = testimonials[(activeIndex - 1 + testimonials.length) % testimonials.length];
+      const center = testimonials[activeIndex];
+      const right = testimonials[(activeIndex + 1) % testimonials.length];
+
+      [left, center, right].forEach((item, i) => {
+        const card = document.createElement("div");
+        card.classList.add("testimonial-card");
+        card.classList.add(i === 0 ? "left" : i === 1 ? "center" : "right");
+        card.innerHTML = `
+          <div class="date">${item.date}</div>
+          <img src="${item.image}" alt="${item.name}">
+          <div class="stars">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+          </div>
+          <div class="name">${item.name}</div>
+          <div class="country">${item.country}</div>
+          <div class="message">“${item.message}”</div>
+        `;
+        sliderContainer.appendChild(card);
+      });
+    }
+
+    renderSlider();
+
+    setInterval(() => {
+      activeIndex = (activeIndex + 1) % testimonials.length;
+      renderSlider();
+    }, 4000);
+</script>
+
+
 <script>
     const slider = document.getElementById('videoSlider');
     let isDown = false;
@@ -1091,14 +1231,14 @@
       const walk = (x - startX) * 2;
       slider.scrollLeft = scrollLeft - walk;
     });
-  </script>
-  <script>
+</script>
+<script>
     // JavaScript placeholder for custom function if needed later
     function initializeBrandStripLoop() {
       console.log('Brand loop initialized');
     }
 
     document.addEventListener('DOMContentLoaded', initializeBrandStripLoop);
-  </script>
+</script>
 
 @endpush
