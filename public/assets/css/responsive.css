@@ -1,1 +1,91 @@
+@media (max-width: 768px) {
 
+    .start {
+        font-size: 14px;
+  }
+  .magic-wand-1-icon{
+    width: 15%;
+  }
+  .llc-input-field {
+    padding: 10px 15px !important;
+    font-size: 12px!important;
+  }
+  .llc-submit-btn {
+    padding: 6px 15px !important;
+    font-size: 12px !important;
+    }
+    .lbtn {
+    width: 20px !important;
+    height: 20px !important;
+    }
+    .trustpilot-box{
+    padding: 2px 7px;
+    gap: 4px;
+    } 
+    .trustpilot-box span{
+    font-size: 14px;
+    } 
+    .rating{
+    font-size: 14px;
+    }
+    .trustpilot-text{
+    font-size: 14px;
+    }
+}
+
+
+@media (max-width: 575px){
+    .customer-stats {
+        width: 60% !important;
+    }
+    .get-started-parent {
+        padding: 5px 2px 5px 2px;
+    }
+
+    .get-started{
+        font-size: 12px !important;
+        font-weight: none;
+    }
+    .frame-childarr{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 859px){
+    .get-started-parentblu{
+        right: 6% !important;
+        bottom: -15px !important;
+    }
+    .get-starteds{
+        font-size: 12px;
+
+    }
+    .frame-childarrblu{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 688px){
+    .get-started-parentblu{
+       width: 25% !important ;
+    }
+    .result-text{
+        font-weight: normal;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .addplushome{
+        width: 4% !important;
+    }
+}
+
+
+@media (max-width: 992px){
+    .packages{
+        justify-content: center;
+    }
+}
