@@ -376,145 +376,159 @@
     .get-started-btn:hover {
       opacity: 0.95;
     }
-    .testimonial-wrapper {
-        height: 100%;
-        margin: 50px auto;
-        background: linear-gradient(to bottom right, #2c56e6, #4385f4);
-        border-radius: 16px;
-        padding: 30px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-        position: relative;
-        box-shadow: 2px 5px 6px 4px rgb(0 0 0 / 38%);
-        border: 3px solid white;
+  
+
+  .final-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
     }
 
-    .slider-container {
+    .final-left {
+      flex: 1 1 350px;
+    }
+
+    .final-left h2 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .final-left p {
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+   
+
+    .final-right {
+      flex: 1 1 600px;
+      background: linear-gradient(to bottom right, #1c3fd2, #3b83f6);
+      border-radius: 20px;
+      padding: 40px 20px 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
       position: relative;
-      width: 50%;
+      overflow: hidden;
+      text-align: center;
+      border: 9px solid white;
+    }
+
+    .final-slider-wrapper {
+      position: relative;
+      height: 320px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .testimonial-card {
-      background: #fff;
-      color: #333;
-      border-radius: 12px;
+      width: 300px;
+      background: white;
+      border-radius: 20px;
       padding: 20px;
-      width: 260px;
-      min-height: 260px;
-      box-shadow: 0 8px 12px rgba(0,0,0,0.1);
       position: absolute;
+      transition: all 0.5s ease;
       opacity: 0;
-      transition: all 0.4s ease-in-out;
-      z-index: 0;
-      transform: scale(0.95);
-      height: 50%;
+      filter: blur(2px);
+      transform: scale(0.85);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
 
-    .testimonial-card.active {
+    .testimonial-card.center {
+      position: relative;
       opacity: 1;
-      z-index: 2;
+      filter: none;
       transform: scale(1);
+      z-index: 3;
     }
 
-    .testimonial-card .date {
+
+    .testimonial-card.left {
+      transform: translateX(-250px) scale(0.85);
+      opacity: 0.4;
+      z-index: 1;
+    }
+
+    .testimonial-card.right {
+      transform: translateX(250px) scale(0.85);
+      opacity: 0.4;
+      z-index: 1;
+    }
+
+    .testimonial-card img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      margin: 10px 0;
+    }
+
+    .stars img {
+      width: 18px;
+      margin-right: 3px;
+    }
+
+    .name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .country {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .date {
       font-size: 12px;
       color: #999;
       margin-bottom: 10px;
     }
 
-    .testimonial-card .stars {
-      margin: 10px 0;
-    }
-
-    .testimonial-card img {
-      border-radius: 50%;
-      width: 48px;
-      height: 48px;
-      object-fit: cover;
-    }
-
-    .testimonial-card h4 {
-      margin: 10px 0 2px;
-      font-weight: bold;
-    }
-
-    .testimonial-card .country {
-      color: #999;
+    .message {
       font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+    }
+    .trusexce{
+        font-size: 18px;
+        line-height: 26px;
+        font-family: Poppins;
+        color: #fff;
+        text-align: left;
+    }
+    .retrus{
+        font-size: 12px;
+        text-align: left;
+    }
+   
+
+    @media (max-width: 768px) {
+      .final-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .testimonial-card.left,
+      .testimonial-card.right {
+        display: none;
+      }
+
+      .final-slider-wrapper {
+        height: auto;
+      }
     }
 
-    .trustpilot-info {
-      width: 45%;
-      padding: 0 20px;
-    }
-
-    .trustpilot-info h3 {
-      margin: 0;
-      font-size: 22px;
-      color: #00b67a;
-    }
-
-    .trustpilot-info .stars {
-      margin: 10px 0;
-      font-size: 20px;
-    }
-
-    .trustpilot-info .stars i {
-      color: #00b67a;
-    }
-
-    .dots {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .dot {
-      display: inline-block;
-      height: 8px;
-      width: 8px;
-      margin: 0 3px;
-      background-color: #bbb;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-
-    .dot.active {
-      background-color: #333;
-    }
-
-    .note-section {
-      padding: 60px 20px;
-      max-width: 600px;
-      margin: auto;
-      text-align: left;
-    }
-    .note-section h2 {
-      
-      width: 100%;
-      position: relative;
-      font-size: 35px;
-      letter-spacing: -0.04em;
-      line-height: 46px;
-      font-weight: 500;
-      font-family: Poppins;
-      color: #080808;
-      text-align: left;
-      display: inline-block;
-    }
-    .note-section h2 span {
-      font-weight: 400;
-    }
-    .note-section p {
-      font-size: 1rem;
-      color: #757575;
-      margin-top: 20px;
-    }
-
+    
+   
+   
     .contact-btn-modern {
       display: inline-flex;
       align-items: center;
@@ -748,93 +762,54 @@
   </div>
 </div>
 
-<div class="container mb-5 pb-5">
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="note-section">
-        <h2>Gust wanted to share a quick note and let<span> .</span></h2>
-        <p>I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you.</p>
-        <a href="#" class="contact-btn-modern">
-          Contact us
-          <div class="contact-btn-icon-right">
-            →
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-6" style="position: relative">
-      <div class="testimonial-wrapper">
-        <div class="slider-container">
-          <div class="testimonial-card active">
-            <div class="date">24/08/2026</div>
-            <img src="{{ url('assets/images/funnel/textimg.jpg') }}" alt="User" />
-            <div class="stars">
-              <div class="stars">
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
+
+
+<section class="textmoniel">
+    <div class="container">
+        <div class="final-container">
+            <!-- LEFT -->
+            <div class="final-left">
+              <h2>Gust wanted to share a quick note and let.</h2>
+              <p>Just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</p>
+              <a href="#" class="contact-btn-modern">
+                Contact us
+                <div class="contact-btn-icon-right">
+                  →
+                </div>
+              </a>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="final-right">
+              <div class="row">
+                  <div class="col-md-8" style="overflow: hidden;">
+                      <div class="final-slider-wrapper" id="testimonialSlider">
+                          <!-- Cards will be rendered here -->
+                      </div>
+                  </div>
+                  <div class="col-md-4" style="position: relative;">
+                      <!-- Trustpilot -->
+                            <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
+                                <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
+                                <div class="mt-2 trusexce">Excellent</div>
+                                <div class="trustpilot-stars" style="text-align: left;">
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star">★</span>
+                                  <span class="star inactive">★</span>
+                                </div>
+                                <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
+                            </div>
+                  </div>
               </div>
             </div>
-            <h4 style="font-size: 16px;">Saima Islam <span class="country">USA</span></h4>
-            <p style="font-size: 14px;">"Super lovely product. I love this product because the software is brilliantly helpful."</p>
-          </div>
-          <div class="testimonial-card">
-            <div class="date">15/07/2026</div>
-            <img src="{{ url('assets/images/funnel/routeman.png') }}" alt="User" />
-            <div class="stars">
-              <div class="stars">
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <h4 style="font-size: 16px;">John Carter <span class="country">UK</span></h4>
-            <p style="font-size: 14px;">"Outstanding support and features. This is the best decision we made for our business!"</p>
-          </div>
-          <div class="testimonial-card">
-            <div class="date">02/06/2026</div>
-            <img src="{{ url('assets/images/funnel/textimg.jpg') }}" alt="User" />
-            <div class="stars">
-              <div class="stars">
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star" style="color: green;"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <h4 style="font-size: 16px;">Linda Chen <span class="country">Canada</span></h4>
-            <p style="font-size: 14px;">"Reliable, efficient, and incredibly easy to use. Highly recommended!"</p>
-          </div>
         </div>
-        
-        <div class="trustpilot-info">
-          <h3><i class="fa-solid fa-star"></i> Trustpilot</h3>
-          <p>Excellent</p>
-          <div class="stars">
-            <i class="fa-solid fa-star" style="color: green;"></i>
-            <i class="fa-solid fa-star" style="color: green;"></i>
-            <i class="fa-solid fa-star" style="color: green;"></i>
-            <i class="fa-solid fa-star" style="color: green;"></i>
-            <i class="fa-solid fa-star" style="color: green;"></i>
-          </div>
-          <p>TrustScore 4.5 | <a href="#" style="color:white; text-decoration:underline">2537 reviews</a></p>
-        </div>
-        
-      </div>
-      <div class="dots" style="position: absolute ;right: 25%;bottom: 0px;margin: 0px;">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-      </div>
-     
     </div>
-  </div>
-</div>
+</section>
+
+
+
 
 <div class="container mt-5 pb-5 mb-4">
     <div class="expedite-formation-journey-container">
@@ -885,24 +860,84 @@
 @endsection
 
 @push('scripts')
+
 <script>
-  const cards = document.querySelectorAll('.testimonial-card');
-  const dots = document.querySelectorAll('.dot');
-  let index = 0;
+    const testimonials = [
+      {
+        name: "Saima Islam",
+        country: "USA",
+        date: "24/08/2026",
+        image: "https://randomuser.me/api/portraits/women/79.jpg",
+        message: "Super lovely product. I love this product because the software is brilliantly helpful. Can’t get enough!"
+      },
+      {
+        name: "John Carter",
+        country: "Canada",
+        date: "10/01/2026",
+        image: "https://randomuser.me/api/portraits/men/65.jpg",
+        message: "Professional and easy to use. This tool has saved me hours!"
+      },
+      {
+        name: "Elena Cruz",
+        country: "UK",
+        date: "15/03/2026",
+        image: "https://randomuser.me/api/portraits/women/12.jpg",
+        message: "Stylish design and seamless experience. Love it!"
+      },
+      {
+        name: "Carlos Mendez",
+        country: "Mexico",
+        date: "05/06/2025",
+        image: "https://randomuser.me/api/portraits/men/30.jpg",
+        message: "Absolutely smooth. Everything works exactly as I expected!"
+      },
+      {
+        name: "Linda Zhou",
+        country: "Singapore",
+        date: "11/12/2025",
+        image: "https://randomuser.me/api/portraits/women/33.jpg",
+        message: "A clean UI and fast performance. Would definitely recommend it."
+      }
+    ];
 
-  function showCard(i) {
-    cards.forEach(card => card.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
-    cards[i].classList.add('active');
-    dots[i].classList.add('active');
-  }
+    const sliderContainer = document.getElementById("testimonialSlider");
+    let activeIndex = 0;
 
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => {
-      index = i;
-      showCard(index);
-    });
-  });
+    function renderSlider() {
+      sliderContainer.innerHTML = '';
+
+      const left = testimonials[(activeIndex - 1 + testimonials.length) % testimonials.length];
+      const center = testimonials[activeIndex];
+      const right = testimonials[(activeIndex + 1) % testimonials.length];
+
+      [left, center, right].forEach((item, i) => {
+        const card = document.createElement("div");
+        card.classList.add("testimonial-card");
+        card.classList.add(i === 0 ? "left" : i === 1 ? "center" : "right");
+        card.innerHTML = `
+          <div class="date">${item.date}</div>
+          <img src="${item.image}" alt="${item.name}">
+          <div class="stars">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0a6d03"><path d="m585.33-315.39-28.76-119.09 93.56-80.56-121.85-10.76L480-638.89v259.46l105.33 64.04ZM203.91-80.56l73.63-314.05L33.41-605.78l321.52-26.96L480-928.54l125.07 295.8 321.52 26.96-244.13 211.17 73.63 314.05L480-247.07 203.91-80.56Z"/></svg>
+          </div>
+          <div class="name">${item.name}</div>
+          <div class="country">${item.country}</div>
+          <div class="message">“${item.message}”</div>
+        `;
+        sliderContainer.appendChild(card);
+      });
+    }
+
+    renderSlider();
+
+    setInterval(() => {
+      activeIndex = (activeIndex + 1) % testimonials.length;
+      renderSlider();
+    }, 4000);
 </script>
 
 <script>
