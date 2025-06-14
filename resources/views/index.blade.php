@@ -480,7 +480,7 @@
             <div class="col-lg-4 col-md-12">
                 <div class="result-card shadow-sm mx-auto">
                     <div class="result-text">No Surprises. Just Results!!!</div>
-                    <img src="{{url('assets/images/funnel/buss.png')}}" alt="Woman working at laptop">
+                    <img src="{{url('assets/images/funnel/buss.png')}}" style="height: 80%;" alt="Woman working at laptop">
                 </div>
             </div>
             <div class="col-lg-8 col-md-12">
@@ -535,7 +535,7 @@
                                     </div>
 
                                     <div class="price-row">
-                                      <h2 class="total-price">$179</h2>
+                                      <h2 class="total-price">$250</h2>
                                       <span>/Year</span>
                                     </div>
 
@@ -774,7 +774,7 @@
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (11).svg') }}" alt="Logo 7"></div>
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 8"></div>
         </div>
-        <div class="brand-strip-track row-2" id="dynamicLogoSlider">
+        <div class="brand-strip-track row-2" style="padding: 18px 0px;" id="dynamicLogoSlider">
           <!-- Duplicated logos for infinite loop -->
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 1"></div>
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).svg') }}" alt="Logo 2"></div>
@@ -821,7 +821,7 @@
 
 <!----- textmoniel   ----->
 
-<section class="textmoniel mt-5">
+<section class="textmoniel mt-5 mb-5">
     <div class="container" style="margin-top: 7%;">
         <div class="final-container">
             <!-- LEFT -->
@@ -915,7 +915,7 @@
 
 
 <!---- Frequently ask ---->
-<section class="ask mt-3 mb-5">
+<section class="ask mt-3 mb-5 pb-4">
     <div class="container">
         <div class="row">
             <div class="col">
