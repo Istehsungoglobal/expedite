@@ -234,6 +234,7 @@ a:active {
   	white-space: pre-wrap;
 }
 .confidential-remote-container {
+  margin-top:30px ;
   	position: relative;
   	font-size: 20px;
   	letter-spacing: -0.02em;
@@ -581,7 +582,7 @@ a:active {
 	gap: 12px;
 }
 .cardfor-parent {
-	width: 100%;
+	width: 75%;
 	position: relative;
 	border-radius: 24px;
 	background-color: #f8f8f8;
@@ -1686,7 +1687,9 @@ a:active {
 					font-family: Inter;
 			}
 
-			
+			.formation {
+        padding-bottom: 65px;
+      }
 			.expedite {
 				text-transform: uppercase;
 			}
@@ -1842,12 +1845,12 @@ position: relative;
 border-radius: 24px;
 max-width: 100%;
 overflow: hidden;
-height: 380px;
+height: 100%;
 object-fit: cover;
 }
 
 .got-questions-were {
-width: 100%;
+width: 60%;
 position: relative;
 font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
 letter-spacing: -0.04em;
@@ -1948,6 +1951,8 @@ text-align: center;
 
 .blog-date{
 	margin-left: 10%;
+  font-size: 11px;
+  color: #6e6c6c;
 }
 .cardmain{
 	border: 10px solid #e7e5e5;
@@ -2159,13 +2164,11 @@ text-align: center;
     }
 
     .trustpilot-box {
-      background-color: #f9f9f9;
       border-radius: 999px;
       padding: 5px 15px;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      gap: 5px;
     }
 
     .trustpilot-box img {
