@@ -109,7 +109,7 @@ a:active {
 /* Hero Styles */
 
 .hero{
-		background-image: url('../assets/Union.png');
+		background-image: url('../../images/funnel/Union.png');
   	background-color: #fbf9f9; 
   	height: 800px; 
   	background-position: center; 
@@ -801,6 +801,10 @@ a:active {
   }
       
 }
+
+
+
+
 
 
 .pick-the-best {
@@ -2015,7 +2019,7 @@ text-align: center;
 /*.............footer.......*/
 
 .footer{
-	background-color: #060f40;
+	background-color: #172155;;
 	padding-top:40px;
 	padding-left: 10px;
 }
@@ -2051,7 +2055,7 @@ text-align: center;
 	text-align: center;
 }
 .pages .list-group li{
-	background-color: #060f40;
+	background-color: #172155;
 	border: none;
 }
 .pages .list-group .list-group-item a{
