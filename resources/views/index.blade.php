@@ -99,6 +99,10 @@
 
     .stars {
       margin: 10px 0;
+      display: inline-block;
+      position: absolute;
+      left: 90px;
+      top: 50px;
     }
 
     .stars img {
@@ -367,7 +371,7 @@
                 <div id="serviceSlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <!-- Slide 1 -->
-                      <div class="carousel-item active">
+                      <div class="carousel-item active" style="background-color:#00000000">
                         <div class="row">
                           <div class="col-md-4">
                             <div class="service-card">
@@ -408,7 +412,7 @@
                         </div>
                       </div>
                       <!-- Slide 2 -->
-                      <div class="carousel-item">
+                      <div class="carousel-item" style="background-color:#00000000">
                         <div class="row">
                           <div class="col-md-4">
                             <div class="service-card">
@@ -458,15 +462,13 @@
                     </div>
                 </div>
                 <div class="row"  >
-                  <div class="get-started-parentblu">
-                    <div class="get-starteds">Get Started</div>
-                    <img class="frame-childarrblu" alt="" src="{{ url('assets/images/arrblu.png') }}">
-                  </div>
+                      <div class="get-started-parentblu">
+                        <div class="get-starteds">Get Started</div>
+                        <img class="frame-childarrblu" alt="" src="{{ url('assets/images/arrblu.png') }}">
+                      </div>
+                </div>
             </div>
-            </div>
-
         </div>
-        
 </section>
 <!-- business part -->
 <section class="business pt-5 mt-4">
@@ -631,7 +633,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img class="frame-child circlechild" alt="" src="{{url('assets/images/funnel/circle.svg')}}">
+                            <img class="frame-child circlechild" alt="" src="{{url('assets/images/Gr.svg')}}">
                             <div class="parent">
                                 <div class="div">84.40%</div>
                                 <div class="jan-2025-wrapper">
@@ -1005,12 +1007,12 @@
                         <form action="/action_page.php">
                             <div class="mb-3 mt-3">
                             <div class="mb-3">
-                              <input type="text" class="form-control" id="name" placeholder="Enter your name" name="pswd">
+                              <input type="text" class="form-control" style="border-radius: 20px;" id="name" placeholder="Enter your name" name="pswd">
                             </div>
-                              <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+                              <input type="email" class="form-control" style="border-radius: 20px;" id="email" placeholder="Enter your email" name="email">
                             </div>
                             <div class="mb-3">
-                              <input type="text" class="form-control" id="mass" placeholder="Write a massage" name="mass">
+                              <input type="text" class="form-control" style="border-radius: 20px;" id="mass" placeholder="Write a massage" name="mass">
                             </div>
                             <a href="#" class="contact-btn-wrapper">
                                 Contact Us
