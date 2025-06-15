@@ -5,6 +5,7 @@
 @push('styles')
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
 
 <style>
@@ -782,42 +783,6 @@
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-6.webp') }}" alt="Logo 6"></div>
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-7.webp') }}" alt="Logo 7"></div>
           <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-8.webp') }}" alt="Logo 8"></div>
-        </div>
-        <div class="brand-strip-track row-2" style="padding: 18px 0px;" id="dynamicLogoSlider">
-          <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-9.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-11.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-12.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-13.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-14.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-15.webp') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-16.webp') }}" alt="Logo 7"></div>
-          <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-9.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-11.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-12.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-13.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-14.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-15.webp') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-16.webp') }}" alt="Logo 7"></div>
-        </div>
-        <div class="brand-strip-track row-3" id="dynamicLogoSlider">
-          <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/bg_logo.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Doola-logo-300x111.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Firstbase.io-logo-300x111.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MSN.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Benzinga.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/News-Break.webp') }}" alt="Logo 6"></div>
-          
-          <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/bg_logo.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Doola-logo-300x111.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Firstbase.io-logo-300x111.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MSN.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Benzinga.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/News-Break.webp') }}" alt="Logo 6"></div>
-          
         </div>
       </div>
     </div>
