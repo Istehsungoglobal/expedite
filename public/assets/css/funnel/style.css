@@ -61,7 +61,7 @@ body {
 }
 
 .navbar-logo img {
-	max-width: 100px;
+	max-width: 150px;
 }
 
 .navbar-menu {
@@ -116,8 +116,8 @@ a:active {
   	background-repeat: no-repeat; 
   	background-size: cover; 
 }
-.frame-parent{
-	padding-top: 5%;
+.logowidth{
+  width: 140px;
 }
 
 .vuesaxlineartick-circle-icon {
@@ -149,6 +149,7 @@ a:active {
 	gap: 8px;
 }
 .frame-parent {
+  padding-top: 5%;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -198,15 +199,29 @@ a:active {
 	font-family: Poppins;
 	padding-top: 5%;
 }
+.svgdiv{
+    display: inline-block;
+    background-color: #f8561b;
+    line-height: 36.5px;
+    border-radius: 50px 50px 50px 50px;
+    width: 80px;
+    margin-left: 10px;
+    padding: 4px 5px;
+    position: relative;
+    height: 46px;
+}
 .svgicon {
-	width: 42.5px;
-	border-radius: 92.31px;
-	height: 42.5px;
+	width: 38px;
+	border-radius: 92px;
+	height: 38px;
 	overflow: hidden;
 	flex-shrink: 0;
 	background-color: white;
-	color: white;
+  position: absolute;
+  right: 3px;
 }
+
+
 .badge-new {
       background-color: #f05323;
       color: #fff;
@@ -276,7 +291,7 @@ a:active {
     .llc-submit-btn {
       background-color: #ff5722;
       color: white;
-      padding: 12px 22px;
+      padding: 3px 3px 3px 14px;
       border: none;
       border-radius: 50px;
       display: flex;
@@ -293,12 +308,32 @@ a:active {
       font-weight: bold;
     }
     .lbtn{
-    	width: 30px;
-    height: 30px;
-    padding: 5px;
-    background-color: white;
-    color: #ff5722;
-    border-radius: 50%;
+    	width: 35px;
+      height: 35px;
+      padding-left: 4px;
+      background-color: white;
+      color: #ff5722;
+      border-radius: 50%;
+      font-size: 27px;
+    }
+
+    .lbtne{
+      width: 40px;
+      height: 40px;
+      padding-left: 10px;
+      background-color: white;
+      color: #ff5722;
+      border-radius: 50%;
+      font-size: 27px;
+    }
+    .lbtnsay{
+      width: 40px;
+      height: 40px;
+      padding-left: 7px;
+      background-color: #FFF;
+      color: #c75122f7;
+      border-radius: 50%;
+      font-size: 25px;
     }
 
     @media (max-width: 576px) {
@@ -601,29 +636,24 @@ a:active {
 .get-started {
 	position: relative;
 	letter-spacing: -0.02em;
-	font-weight: 600;
 }
-.frame-childarr {
-	width: 52px;
-	border-radius: 40px;
-	height: 52px;
-}
+
 .get-started-parent {
 	  position: relative;
     box-shadow: 0px 8px 20px rgba(107, 78, 252, 0.2);
     border-radius: 40px;
     background-color: #f8561b;
-    width: 15%;
-    height: 60px;
+    width: 13%;
+    height: 46px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 12px 4px 12px 20px;
+    padding: 12px 0px 12px 16px;
     box-sizing: border-box;
     gap: 16px;
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     font-family: Inter;
     margin: 0px auto;
@@ -656,7 +686,7 @@ a:active {
 
 .vector-icon {
 	position: absolute;
-  width: 100%;
+  width: 60%;
 	
 }
 .everything-you-need {
@@ -702,8 +732,12 @@ a:active {
 }
 
 
-.carousel-inner {
+    .carousel-inner {
       padding-top: 2rem;
+    }
+
+    .servicecat{
+      position: relative;
     }
     .service-card {
       padding: 10px;
@@ -712,29 +746,37 @@ a:active {
       font-weight: bold;
     }
     .service-img {
-      position: relative;
       height: 180px;
       overflow: hidden;
       border-radius: 10px;
       margin-top: 10px;
     }
-    .service-img img {
+    .serimg {
       width: 100%;
       height: 100%;
       object-fit: cover;
       filter: brightness(0.4);
     }
-    .service-icon {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      background: rgba(255,255,255,0.15);
-      border: 1px solid white;
-      padding: 24px;
-      border-radius: 50%;
+
+    .servimg{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        margin: auto;
+        color: white;
+        background: rgba(255,255,255,0.15);
+        border: 1px solid white;
+        padding: 4px;
+        border-radius: 50%;
     }
+
+
+
+
     .carousel-indicators [data-bs-target] {
       width: 8px;
       height: 8px;
@@ -774,22 +816,22 @@ a:active {
 	}
 	.get-started-parentblu {
 		position: absolute;
-    right: 8%;
-    bottom: 74px;
+    right: 21%;
+    bottom: 100px;
     margin: auto;
     box-shadow: 0px 8px 20px rgba(107, 78, 252, 0.2);
     border-radius: 40px;
     background-color: #fff;
-    width: 22%;
-    height: 60px;
+    width: 8%;
+    height: 46px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 12px 4px 12px 20px;
+    padding: 12px 0px 12px 12px;
     box-sizing: border-box;
     gap: 16px;
-    text-align: left;
+    /* text-align: left; */
     font-size: 14px;
     color: #172155;
     font-family: Inter;
@@ -802,7 +844,15 @@ a:active {
   }
       
 }
-
+.lbtncat{
+    width: 40px;
+    height: 40px;
+    padding-left: 7px;
+    background-color: #172155;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 25px;
+}
 
 
 
@@ -851,6 +901,7 @@ a:active {
       padding: 30px 25px;
       width: 100%;
       box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 10%);
+
     }
     .active {
 		  background-color: #0a1c4f;
@@ -869,12 +920,11 @@ a:active {
     }
 
     .label-tag {
-      font-size: 10px;
+      font-size: 9px;
       background: #d1d1d1;
       color: white;
-      padding: 3px 10px;
+      padding: 2px 10px;
       border-radius: 20px;
-      font-weight: 500;
     }
 
     .price-row {
@@ -927,7 +977,7 @@ a:active {
 
     .total-btn {
       margin-top: 30px;
-	    padding: 17px;
+	    padding: 6px 6px 6px 20px;
 	    width: 100%;
 	    background: #ffffff;
 	    border: none;
@@ -950,13 +1000,13 @@ a:active {
 		
 		.addplushome{
       position: absolute;
-      right: 10%;
+      right: 1%;
       top: 0px;
       margin: auto;
       background-color: white;
       color: #0b1547;
       border-radius: 50%;
-      width: 8%;
+      width: 7.5%;
     }
     .rarr{
     	background-color: #8D8D8D;
@@ -1501,7 +1551,7 @@ a:active {
 		.brand-strip-container {
       overflow: hidden;
       position: relative;
-      background-color: #ffffff;
+      background-color: #cbcbcb;
       padding: 20px 0;
     }
 
@@ -1673,7 +1723,7 @@ a:active {
 					border-radius: 40px;
 					background-color: #f8561b;
 					width: 30%;
-					height: 50px;
+					height: 46px;
 					display: flex;
 					flex-direction: row;
 					align-items: center;
@@ -1705,7 +1755,7 @@ a:active {
 			.entrepreneurs-move-fast {
 				margin: 0;
 			}
-			.entrepreneurs-move-fast-container {
+			.entrepreneurs-move-fast-containers {
 				position: relative;
 				font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
 				letter-spacing: -0.04em;
@@ -1715,6 +1765,7 @@ a:active {
 				text-align: center;
 				margin: 0px auto;
     		display: block;
+        padding-top: 20px;
 			}
 
     .carousel-inner {
@@ -1776,9 +1827,8 @@ a:active {
       background-color: #ff5722;
       color: white;
       border-radius: 50px;
-      padding: 8px 14px 8px 20px;
+      padding: 3px 3px 3px 15px;
       font-size: 14px;
-      font-weight: 600;
       text-decoration: none;
       transition: background 0.3s ease;
     }
@@ -1876,10 +1926,9 @@ display: inline-block;
       align-items: center;
       background-color: #ff5722;
       border-radius: 50px;
-      padding: 12px 12px 12px 24px;
+      padding: 3px 3px 3px 24px;
       color: white;
       text-decoration: none;
-      font-weight: 600;
       font-size: 16px;
       transition: background-color 0.3s ease;
     }
@@ -1946,7 +1995,7 @@ text-align: center;
 	border-radius: 15px;
 }
 .blogname{
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .blog-date{
@@ -1960,7 +2009,7 @@ text-align: center;
 .blogbutton{
     font-size: 12px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #F8561B;
     border: none;
     color: white;
@@ -1993,7 +2042,8 @@ text-align: center;
 .pwd{
 	width: 40%;
 	display: inline-block;
-	border-radius: 15px;
+	border-radius: 20px;
+  font-size: 14px;
 }
 .subbtn{
 	width: 30%;
