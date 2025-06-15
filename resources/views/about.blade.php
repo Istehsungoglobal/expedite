@@ -651,10 +651,7 @@
           </div>
           <div class="carousel-inner" style="width: 80%; margin:0px auto">
               <div class="carousel-item active">
-                  <img src="{{ url('assets/images/aboutusslider (1).jpg') }}" class="d-block w-100" alt="Slide 1">
-              </div>
-              <div class="carousel-item">
-                  <img src="{{ url('assets/images/aboutusslider (2).jpg') }}" class="d-block w-100" alt="Slide 2">
+                  <img src="{{ url('assets/images/team.jpg') }}" class="d-block w-100" alt="Slide 1">
               </div>
           </div>
         </div>
