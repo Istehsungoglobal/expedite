@@ -185,12 +185,6 @@
     text-align: left;
     display: inline-block;
     }
-    
-
-    
-
-
-    
 
     .at-expedite-formation {
     font-size: 20px;
@@ -526,10 +520,6 @@
         height: auto;
       }
     }
-
-    
-   
-   
     .contact-btn-modern {
         display: inline-flex;
         align-items: center;
@@ -766,15 +756,13 @@
   </div>
 </div>
 
-
-
 <section class="textmoniel">
     <div class="container">
         <div class="final-container">
             <!-- LEFT -->
             <div class="final-left">
-              <h2>Gust wanted to share a quick note and let.</h2>
-              <p>Just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</p>
+              <h2>What Our Clients Say</h2>
+              <p>Your success stories fuel our passion. Here’s a quick note from our happy clients sharing their experience with us.</p>
               <a href="#" class="contact-btn-modern">
                 Contact us
                 <div class="contact-btn-icon-right">
