@@ -277,46 +277,49 @@
       max-height: 220px;
     }
     .commitment-img-wrapper img:first-child {
-      width: 50%;
+      width: 65%;
     }
     .commitment-img-wrapper img:last-child {
-      width: 50%;
+      width: 37%;
     }
     .commitment-text h5 {
       font-weight: 600;
     }
     .we-believe-that {
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    line-height: 156.5%;
-    font-family: Poppins;
-    color: #4b4b4b;
-    text-align: left;
-    display: inline-block;
-    opacity: 0.8;
+      font-size: 14px;
+      letter-spacing: -0.02em;
+      line-height: 156.5%;
+      font-family: Poppins;
+      color: #4b4b4b;
+      text-align: left;
+      display: inline-block;
+      opacity: 0.8;
+      width: 80%;
     }
     .commitment-img-wrapper{
       position: relative;
+      padding-left: 17%;
     }
     .com2{
       position: absolute;
-      left: 20%;
-      top: -7px;
+      left: 50%;
+      top: -17px;
       right: 0px;
       margin: 0px auto;
-      width: 38%;
-      height: 78%;
+      height: 75%;
     }
 
     .the-future-of {
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    line-height: 156.5%;
-    font-family: Poppins;
-    color: #4b4b4b;
-    text-align: right;
-    display: inline-block;
-    opacity: 0.8;
+      font-size: 14px;
+      letter-spacing: -0.02em;
+      line-height: 156.5%;
+      font-family: Poppins;
+      color: #4b4b4b;
+      text-align: right;
+      display: inline-block;
+      opacity: 0.8;
+      width: 80%;
+      float: right;
     }
     .commitment-img-wrapper2 img {
       border-radius: 12px;
@@ -327,7 +330,7 @@
       width: 50%;
     }
     .commitment-img-wrapper2 img:last-child {
-      width: 50%;
+      width: 37%;
     }
 
     .commitment-img-wrapper2{
@@ -335,12 +338,11 @@
     }
     .com4{
       position: absolute;
-      left: 20%;
-      top: -7px;
+      left: -5%;
+      top: -20px;
       right: 0px;
       margin: 0px auto;
-      width: 38%;
-      height: 78%;
+      height: 75%;
     }
 
     .get-started-btn {
@@ -350,9 +352,8 @@
       color: white;
       display: inline-flex;
       align-items: center;
-      padding: 10px 24px;
-      font-size: 14px;
-      font-weight: 500;
+      padding: 4px 4px 4px 6px;
+      font-size: 13px;
       box-shadow: 0px 4px 10px rgba(10, 28, 79, 0.15);
       
       position: absolute;
@@ -530,17 +531,16 @@
    
    
     .contact-btn-modern {
-      display: inline-flex;
-      align-items: center;
-      background-color: #fff;
-      border-radius: 50px;
-      box-shadow: 0 5px 20px rgba(78, 91, 255, 0.1);
-      padding: 10px 16px 10px 20px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #1b1f4b;
-      text-decoration: none;
-      transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        background-color: #cdcdcd;
+        border-radius: 50px;
+        box-shadow: 0 5px 20px rgba(78, 91, 255, 0.1);
+        padding: 4px 4px 4px 15px;
+        font-size: 14px;
+        color: #1b1f4b;
+        text-decoration: none;
+        transition: all 0.3s ease;
     }
 
     .contact-btn-modern:hover {
@@ -582,12 +582,14 @@
     .entrepreneurs-move-fast {
       margin: 0;
     }
-    .entrepreneurs-move-fast-container {
+    .entrepreneurs-move-fast-containerabout {
       font-size: clamp(1.5rem, 0.875rem + 2vw, 2rem);
       letter-spacing: -0.04em;
       font-family: Poppins;
       color: #080808;
       text-align: center;
+      display: block;
+      margin: 0px auto;
     }
 
 
@@ -718,46 +720,48 @@
   <img src="{{ url('assets/images/ss.png') }}" style="width: 100%;" alt="Businessman" disable>
 </div>
 
-<div class="container commitment-section">
-  <div class="row align-items-center">
-    <!-- Text -->
-    <div class="col-md-6 commitment-text mb-4 mb-md-0">
-      <h5>Our Commitment</h5>
-      <p class="we-believe-that">
-        We believe that business ownership should be accessible to everyone, no matter where they are in the world.
-        That’s why we simplify the entire U.S. business registration process, ensuring you can build, grow, and scale your business
-        without unnecessary delays or complications.
-      </p>
-    </div>
+<div class="container" style="padding: 2% 5%;">
+  <div class="container commitment-section">
+      <div class="row align-items-center">
+        <!-- Text -->
+        <div class="col-md-5 commitment-text mb-4 mb-md-0">
+          <h5>Our Commitment</h5>
+          <p class="we-believe-that">
+            We believe that business ownership should be accessible to everyone, no matter where they are in the world.
+            That’s why we simplify the entire U.S. business registration process, ensuring you can build, grow, and scale your business
+            without unnecessary delays or complications.
+          </p>
+        </div>
 
-    <!-- Images -->
-    <div class="col-md-6 commitment-img-wrapper">
-      <img class="com1" src="{{ url('assets/images/oc (1).png') }}" alt="Handshake">
-      <img class="com2" src="{{ url('assets/images/oc (2).png') }}" alt="Signing papers">
-    </div>
+        <!-- Images -->
+        <div class="col-md-7 commitment-img-wrapper">
+          <img class="com1" src="{{ url('assets/images/oc (1).png') }}" alt="Handshake">
+          <img class="com2" src="{{ url('assets/images/oc (2).png') }}" alt="Signing papers">
+        </div>
+      </div>
   </div>
-</div>
 
-<div class="container commitment-section">
-  <div class="row align-items-center">
-    <!-- Images -->
-    <div class="col-md-6 commitment-img-wrapper2">
-      <img class="com1" src="{{ url('assets/images/com3 (1).png') }}" alt="Handshake">
-      <img class="com4" src="{{ url('assets/images/com3 (2).png') }}" alt="Signing papers">
-    </div>
-    <!-- Text -->
-    <div class="col-md-6 commitment-text mb-4 mb-md-0" style="position: relative;">
-      <h5 style="text-align: right;">Our Vision for Entrepreneurs</h5>
-      <p class="the-future-of">
-        The future of business is borderless. Our goal is to make U.S. business registration simple, affordable, and stress-free so ambitious founders everywhere can take their business global.
-      </p>
+  <div class="container commitment-section">
+    <div class="row align-items-center">
+      <!-- Images -->
+      <div class="col-md-7 commitment-img-wrapper2">
+        <img class="com1" src="{{ url('assets/images/com3 (1).png') }}" alt="Handshake">
+        <img class="com4" src="{{ url('assets/images/com3 (2).png') }}" alt="Signing papers">
+      </div>
+      <!-- Text -->
+      <div class="col-md-5 commitment-text mb-4 mb-md-0" style="position: relative;">
+        <h5 style="text-align: right;">Our Vision for Entrepreneurs</h5>
+        <p class="the-future-of">
+          The future of business is borderless. Our goal is to make U.S. business registration simple, affordable, and stress-free so ambitious founders everywhere can take their business global.
+        </p>
 
-      <button class="get-started-btn">
-        Get Started!
-        <span class="arrow-circle">
-          →
-        </span>
-      </button>
+        <button class="get-started-btn">
+          Get Started!
+          <span class="arrow-circle">
+            →
+          </span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -789,18 +793,18 @@
                   </div>
                   <div class="col-md-4" style="position: relative;">
                       <!-- Trustpilot -->
-                            <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
-                                <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
-                                <div class="mt-2 trusexce">Excellent</div>
+                        <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
+                            <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
+                            <div class="mt-2 trusexce">Excellent</div>
                                 <div class="trustpilot-stars" style="text-align: left;">
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star inactive">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star inactive">★</span>
                                 </div>
-                                <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
-                            </div>
+                            <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
+                        </div>
                   </div>
               </div>
             </div>
@@ -815,9 +819,9 @@
     <div class="expedite-formation-journey-container">
         <span class="expedite">Expedite</span> FORMATION Journey
     </div>
-    <div class="entrepreneurs-move-fast-container">
-      <p class="entrepreneurs-move-fast">Entrepreneurs move fast. We move faster.</p>
-      <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense.</p>
+    <div class="entrepreneurs-move-fast-containerabout mt-5">
+      <p class="entrepreneurs-move-fast">Real Voices. Real Wins.</p>
+      <p class="entrepreneurs-move-fast">Unfiltered stories from entrepreneurs who’ve built faster, smarter, and bolder—with us.</p>
     </div>
 </div>
 <div class="container-flude mt-5 mb-5 pb-5">
