@@ -13,31 +13,30 @@
 @section('content')
 <!-- Blog Section -->
 <section class="pt-5 mt-5 pb-5">
-       <div class="container">
-            <div class="row">
-                <div class="col justify-center-center">
-                    <div class="blog-badge">
-                        <span class="label">Popular Blog</span>
-                        <span class="date">27 April 2025</span>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col justify-center-center">
+                <div class="blog-badge">
+                    <span class="label">Popular Blog</span>
+                    <span class="date">27 April 2025</span>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="mid">
-            <div class="row">
+    <div class="mid">
+        <div class="row">
             <div class="col-md-2">
                 <div class="input-group mb-4 search-bar">
                     <input type="text" class="form-control" placeholder="Search Blog" id="searchInput">
                     <button class="btn btn-primary" type="button" id="searchBtn" style="width: 18%">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0
-                        1.415-1.414l-3.85-3.85zm-5.242.656a5.5 5.5 0 1
-                        1 0-11 5.5 5.5 0 0 1 0 11z"/>
-                    </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0
+                            1.415-1.414l-3.85-3.85zm-5.242.656a5.5 5.5 0 1
+                            1 0-11 5.5 5.5 0 0 1 0 11z"/>
+                        </svg>
                     </button>
                 </div>
-
                 <!-- Table of Contents -->
                 <h6 class="fw-bold">Table Of Content</h6>
                 <ul class="list-unstyled toc-list" id="tocList">
@@ -49,10 +48,8 @@
                     <li><span class="bar"></span> Payment Processor Vs. Payment Gateway.</li>
                     <li><span class="bar"></span> The Bottom Line</li>
                 </ul>
-
                 <!-- CTA Card -->
                 <div class="card mt-4 text-white text-start overflow-hidden cta-card">
-
                     <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?fit=crop&w=400" class="card-img" alt="Launch Company">
                     <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
                     <h5 class="card-title" style="font-size: 13px;text-align: center;">Launch Your U.S. Company</h5>
@@ -84,10 +81,9 @@
 
                     </p>
                     <p>
-                        And with 50 states offering 50 sets of rules, benefits, and hidden costs—the “wrong” state could quietly hold you back for years. Let’s explore the best U.S. states to form a company—and why that one decision could become either your softest landing or your steepest climb.<span class="see-more">See More...</span> 
+                        And with 50 states offering 50 sets of rules, benefits, and hidden costs—the “wrong” state could quietly hold you back for years. Let’s explore the best U.S. states to form a company—and why that one decision could become either your softest landing or your steepest climb.<span class="see-more">Read More...</span> 
                     </p>
                 </div>
-
             </div>
             <div class="col-md-2 mt-5">
                 <div class="popular-posts">
