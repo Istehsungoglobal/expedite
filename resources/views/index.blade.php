@@ -191,7 +191,7 @@
                 <div class="expedite-your-us-container">
                     <span class="expedite-your">Expedite YOUR </span>
                     <span class="us-company-formation">U.S. COMPANY formation</span>
-                    <span class="dominate-your"> Dominate Your<div class="svgdiv" style="display: inline-block;background-color:#f8561b ;line-height: 9px;border-radius: 50px 50px 50px 50px;width:80px; margin-left: 10px;padding:4px 5px"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div>Industry.</span>
+                    <span class="dominate-your"> Dominate Your<div class="svgdiv"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div>Industry.</span>
 
                 </div>
             </div>
@@ -256,30 +256,27 @@
                 <div class="logo-slider-wrapper">
                     <div class="logo-slider-track">
                       <!-- Repeat enough logos to ensure seamless scroll -->
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
-                      <img src="{{asset('assets/images/data1 (1).png')}}" >
-                      <img src="{{asset('assets/images/data1 (2).png')}}" >
-                      <img src="{{asset('assets/images/data1 (3).png')}}" >
-                      <img src="{{asset('assets/images/data1 (4).png')}}" >
-                      <img src="{{asset('assets/images/data1 (5).png')}}" >
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
-                      <img src="{{asset('assets/images/data1 (7).png')}}" >
-                      <img src="{{asset('assets/images/data1 (1).png')}}" >
-                      <img src="{{asset('assets/images/data1 (2).png')}}" >
-                      <img src="{{asset('assets/images/data1 (3).png')}}" >
-                      <img src="{{asset('assets/images/data1 (4).png')}}" >
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
-                      <img src="{{asset('assets/images/data1 (5).png')}}" >
-                      <img src="{{asset('assets/images/data1 (7).png')}}" >
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
-                      <img src="{{asset('assets/images/data1 (7).png')}}" >
-                      <img src="{{asset('assets/images/data1 (1).png')}}" >
-                      <img src="{{asset('assets/images/data1 (2).png')}}" >
-                      <img src="{{asset('assets/images/data1 (3).png')}}" >
-                      <img src="{{asset('assets/images/data1 (4).png')}}" >
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
-                      <img src="{{asset('assets/images/data1 (5).png')}}" >
-                      <img src="{{asset('assets/images/data1 (7).png')}}" >
+                      <img src="{{asset('assets/images/Discover.webp')}}" >
+                      <img src="{{asset('assets/images/Mastercard.webp')}}" >
+                      <img src="{{asset('assets/images/payoneer.webp')}}">
+                      <img src="{{asset('assets/images/Stripe.webp')}}">
+                      <img src="{{asset('assets/images/visa.webp')}}">
+                      <img src="{{asset('assets/images/data1 (1).png')}}">
+                      <img src="{{asset('assets/images/data1 (2).png')}}">
+                      <img src="{{asset('assets/images/Wise.webp')}}">
+                      <img src="{{asset('assets/images/UPI.webp')}}">
+                      <img src="{{asset('assets/images/paypal.webp')}}">
+                      <img src="{{asset('assets/images/Discover.webp')}}" >
+                      <img src="{{asset('assets/images/Mastercard.webp')}}" >
+                      <img src="{{asset('assets/images/payoneer.webp')}}">
+                      <img src="{{asset('assets/images/Stripe.webp')}}">
+                      <img src="{{asset('assets/images/visa.webp')}}">
+                      <img src="{{asset('assets/images/data1 (1).png')}}">
+                      <img src="{{asset('assets/images/data1 (2).png')}}">
+                      <img src="{{asset('assets/images/Wise.webp')}}">
+                      <img src="{{asset('assets/images/UPI.webp')}}">
+                      <img src="{{asset('assets/images/paypal.webp')}}">
+                      
                     </div>
                   </div>
 
@@ -343,7 +340,7 @@
             </div>
             <div class="get-started-parent mt-5">
                 <div class="get-started">Get Started</div>
-                <img class="frame-childarr" alt="" src="{{ url('assets/images/arr.png') }}">
+                <i class="lbtne">&#8594;</i>
             </div>
         </div>
     </div>
@@ -352,8 +349,8 @@
 <!-- everything part -->
 
 <section class="everything pt-4">
-    <img class="vector-icon" alt="" src="{{url('assets/images/funnel/Union.png')}}">
     <div class="container">
+        <img class="vector-icon" alt="" src="{{url('assets/images/funnel/Union.png')}}">
         <div class="row">
             <div class="col-12">
                 <div class="everything-you-need-container">
@@ -362,68 +359,76 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
-            <div class="col-md-4 everycol">
-                <img class="everyimg"  alt="" src="{{url('assets/images/funnel/every (1).jpg')}}">
+            <div class="col-md-4">
+                 <img class="everyimg"  alt="" src="{{url('assets/images/funnel/every (1).jpg')}}">
             </div>
             <div class="col-md-8" style="position: relative">
                 <div id="serviceSlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <!-- Slide 1 -->
-                      <div class="carousel-item active" style="background-color:#00000000">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="service-card">
-                              <div class="everyslider">
-                                  <h6>US Business Incorporation</h6>
-                                  <p class="small">Legal, compliant, and ready for business</p>
-                              </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (2).jpg')}}" alt="Business">
-                                <div class="service-icon"><img src="{{url('assets/images/funnel/corp1.png')}}" style="filter: brightness(1);" alt=""></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="service-card">
-                                <div class="everyslider">
-                                      <h6>Registered Agent Service</h6>
-                                      <p class="small">Stay in good standing without the hassle.</p>
+                        <div class="carousel-item active" style="background-color:#00000000">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="service-card">
+                                        <div class="everyslider">
+                                           <h6>US Business Incorporation</h6>
+                                           <p class="small">Legal, compliant, and ready for business</p>
+                                        </div>
+                                        <div class="servicecat">
+                                            <div class="service-img">
+                                                <img class="serimg" src="{{url('assets/images/funnel/every (2).jpg')}}" alt="Business">
+                                            </div>
+                                            <img class="servimg" src="{{url('assets/images/funnel/corp1.png')}}" style="filter: brightness(1);" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (3).jpg')}}" alt="Agent">
-                                <div class="service-icon"><img style="filter: brightness(1);" src="{{url('assets/images/funnel/corp2.png')}}" alt=""></div>
-                              </div>
+                              
+                                <div class="col-md-4">
+                                    <div class="service-card">
+                                        <div class="everyslider">
+                                              <h6>Registered Agent Service</h6>
+                                              <p class="small">Stay in good standing without the hassle.</p>
+                                        </div>
+                                        <div class="servicecat">
+                                            <div class="service-img">
+                                                <img class="serimg" src="{{url('assets/images/funnel/every (3).jpg')}}" alt="Business">
+                                            </div>
+                                            <img class="servimg" src="{{url('assets/images/funnel/corp2.png')}}" style="filter: brightness(1);" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-card">
+                                        <div class="everyslider">
+                                           <h6>Mail Forwarding</h6>
+                                           <p class="small">Get a US address, no matter where you are.</p>
+                                        </div>
+                                        <div class="servicecat">
+                                            <div class="service-img">
+                                                <img class="serimg" src="{{url('assets/images/funnel/every (4).jpg')}}" alt="Business">
+                                            </div>
+                                            <img class="servimg" src="{{url('assets/images/funnel/corp3.png')}}" style="filter: brightness(1);" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="service-card">
-                              <div class="everyslider">
-                                  <h6>Mail Forwarding</h6>
-                                  <p class="small">Get a US address, no matter where you are.</p>
-                              </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (4).jpg')}}" alt="Mail">
-                                <div class="service-icon"><img class="serviceimg" style="filter: brightness(1);" src="{{url('assets/images/funnel/corp3.png')}}" alt=""></div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
-                      </div>
                       <!-- Slide 2 -->
                       <div class="carousel-item" style="background-color:#00000000">
                         <div class="row">
                           <div class="col-md-4">
                             <div class="service-card">
-                              <div class="everyslider">
-                                <h6>Tax ID / EIN</h6>
-                                <p class="small">We handle the EIN filing for your entity.</p>
-                              </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (5).jpg')}}" alt="EIN">
-                                <div class="service-icon"><img style="filter: brightness(1);" src="{{url('assets/images/funnel/corp1.png')}}" alt=""></div>
-                              </div>
+                                <div class="everyslider">
+                                    <h6>Tax ID / EIN</h6>
+                                    <p class="small">We handle the EIN filing for your entity.</p>
+                                </div>
+                                <div class="servicecat">
+                                    <div class="service-img">
+                                        <img class="serimg" src="{{url('assets/images/funnel/every (4).jpg')}}" alt="Business">
+                                    </div>
+                                    <img class="servimg" src="{{url('assets/images/funnel/corp1.png')}}" style="filter: brightness(1);" alt="">
+                                </div>
                             </div>
                           </div>
                           <div class="col-md-4">
@@ -432,10 +437,12 @@
                                 <h6>Virtual Office</h6>
                                 <p class="small">Establish your business presence remotely.</p>
                               </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (6).jpg')}}" alt="Office">
-                                <div class="service-icon"><img style="filter: brightness(1);" src="{{url('assets/images/funnel/corp2.png')}}" alt=""></div>
-                              </div>
+                              <div class="servicecat">
+                                    <div class="service-img">
+                                        <img class="serimg" src="{{url('assets/images/funnel/every (5).jpg')}}" alt="Business">
+                                    </div>
+                                    <img class="servimg" src="{{url('assets/images/funnel/corp2.png')}}" style="filter: brightness(1);" alt="">
+                                </div>
                             </div>
                           </div>
                           <div class="col-md-4">
@@ -444,10 +451,12 @@
                                 <h6>Bank Account Setup</h6>
                                 <p class="small">Open a US-based bank account quickly.</p>
                               </div>
-                              <div class="service-img">
-                                <img src="{{url('assets/images/funnel/every (7).jpg')}}" alt="Bank">
-                                <div class="service-icon"><img style="filter: brightness(1);" src="{{url('assets/images/funnel/corp3.png')}}" alt=""></div>
-                              </div>
+                              <div class="servicecat">
+                                    <div class="service-img">
+                                        <img class="serimg" src="{{url('assets/images/funnel/every (6).jpg')}}" alt="Business">
+                                    </div>
+                                    <img class="servimg" src="{{url('assets/images/funnel/corp3.png')}}" style="filter: brightness(1);" alt="">
+                                </div>
                             </div>
                           </div>
                         </div>
@@ -461,14 +470,13 @@
                       </div>
                     </div>
                 </div>
-                <div class="row"  >
-                      <div class="get-started-parentblu">
-                        <div class="get-starteds">Get Started</div>
-                        <img class="frame-childarrblu" alt="" src="{{ url('assets/images/arrblu.png') }}">
-                      </div>
-                </div>
+            </div>
+            <div class="get-started-parentblu">
+                <div class="get-starteds">Get Started</div>
+                <i class="lbtncat">&#8594;</i>
             </div>
         </div>
+    </div>
 </section>
 <!-- business part -->
 <section class="business pt-5 mt-4">
@@ -667,38 +675,37 @@
                               <!-- Row 1 -->
                               <div class="slider-wrapper" style="line-height: 0px;">
                                 <div class="slider-row" style="    margin: 0px;">
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/cn.png" alt="">China</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/ar.png" alt="">Argentina</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/jp.png" alt="">Japan</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/kr.png" alt="">Korea</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/it.png" alt="">Italy</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/br.png" alt="">Brazil</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/id.png" alt="">Indonesia</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/fr.png" alt="">France</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (6).jpg')}}" alt="">India</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (10).jpg')}}" alt="">Thailand</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (7).jpg')}}" alt="">Combodia</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (2).png')}}" alt="">Malaysia</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (3).jpg')}}" alt="">Vietnam</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (6).png')}}" alt="">Singapore</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (1).png')}}" alt="">Indonesia</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (8).jpg')}}" alt="">Nepal</div>
                                   <!-- Duplicate for smooth scroll -->
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/cn.png" alt="">China</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/ar.png" alt="">Argentina</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/jp.png" alt="">Japan</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/kr.png" alt="">Korea</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (4).png')}}" alt="">Philippines</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (4).jpg')}}" alt="">SriLanka</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (1).jpg')}}" alt="">Bhutan</div>
                                 </div>
                               </div>
 
                               <!-- Row 2 (opposite direction) -->
                               <div class="slider-wrapper" style="line-height: 0px;">
                                 <div class="slider-row reverse" style="line-height: 0px;">
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/us.png" alt="">USA</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/gb.png" alt="">UK</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/au.png" alt="">Australia</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/ca.png" alt="">Canada</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/in.png" alt="">India</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/de.png" alt="">Germany</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/ng.png" alt="">Nigeria</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/za.png" alt="">South Africa</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (9).jpg')}}" alt="">Myanmar</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (2).jpg')}}" alt="">Turkey</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (11).jpg')}}" alt="">Bangladesh</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (5).jpg')}}" alt="">Hong Kong</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (5).png')}}" alt="">Pakistan</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (10).jpg')}}" alt="">Bangkok</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (3).png')}}" alt="">Maldives</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (3).jpg')}}" alt="">Vietnam</div>
                                   <!-- Duplicate for loop -->
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/us.png" alt="">USA</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/gb.png" alt="">UK</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/au.png" alt="">Australia</div>
-                                  <div class="flag-card"><img src="https://flagcdn.com/w40/ca.png" alt="">Canada</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (4).jpg')}}" alt="">SriLanka</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (1).jpg')}}" alt="">Bhutan</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (7).jpg')}}" alt="">Combodia</div>
+                                  <div class="flag-card"><img src="{{asset('assets/images/flag/flag (1).png')}}" alt="">Indonesia</div>
                                 </div>
                               </div>
                             </div>
@@ -758,63 +765,59 @@
         <div class="fade-overlay-right"></div>
         <div class="brand-strip-track row-1" id="dynamicLogoSlider">
           <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).png') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).png') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).png') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).svg') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-1.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-2.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-3.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-4.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-5.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-6.webp') }}" alt="Logo 6"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-7.webp') }}" alt="Logo 7"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-8.webp') }}" alt="Logo 8"></div>
           <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (5).svg') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (6).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (7).svg') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (8).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (9).svg') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (10).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (11).svg') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-1.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-2.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-3.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-4.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-5.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-6.webp') }}" alt="Logo 6"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-7.webp') }}" alt="Logo 7"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-8.webp') }}" alt="Logo 8"></div>
         </div>
         <div class="brand-strip-track row-2" style="padding: 18px 0px;" id="dynamicLogoSlider">
           <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).png') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).png') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).png') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).svg') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-9.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-11.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-12.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-13.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-14.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-15.webp') }}" alt="Logo 6"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-16.webp') }}" alt="Logo 7"></div>
           <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (5).svg') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (6).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (7).svg') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (8).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (9).svg') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (10).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (11).svg') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-9.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-11.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-12.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-13.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-14.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-15.webp') }}" alt="Logo 6"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-16.webp') }}" alt="Logo 7"></div>
         </div>
         <div class="brand-strip-track row-3" id="dynamicLogoSlider">
           <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).png') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (2).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).png') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (3).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).png') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (4).svg') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/bg_logo.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Doola-logo-300x111.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Firstbase.io-logo-300x111.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MSN.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Benzinga.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/News-Break.webp') }}" alt="Logo 6"></div>
+          
           <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (5).svg') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (6).svg') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (7).svg') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (8).svg') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (9).svg') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (10).svg') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (11).svg') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/logo/threelogo (1).png') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/bg_logo.webp') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Doola-logo-300x111.webp') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Firstbase.io-logo-300x111.webp') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MSN.webp') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/Benzinga.webp') }}" alt="Logo 5"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/News-Break.webp') }}" alt="Logo 6"></div>
+          
         </div>
       </div>
     </div>
@@ -828,38 +831,38 @@
         <div class="final-container">
             <!-- LEFT -->
             <div class="final-left">
-              <h2>Gust wanted to share a quick note and let.</h2>
-              <p>Just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.</p>
+              <h2>What Our Clients Say</h2>
+              <p>Your success stories fuel our passion. Here’s a quick note from our happy clients sharing their experience with us.</p>
               <div class="contact-us-parentg mt-5">
                   <div class="contact-us">Contact us</div>
-                  <img class="frame-childcon" alt="" src="{{ url('assets/images/arr.png') }}">
+                  <i class="lbtnsay">&#8594;</i>
                </div>
             </div>
 
             <!-- RIGHT -->
             <div class="final-right">
-              <div class="row">
-                  <div class="col-md-8" style="overflow: hidden;">
-                      <div class="final-slider-wrapper" id="testimonialSlider">
+                <div class="row">
+                    <div class="col-md-8" style="overflow: hidden;">
+                        <div class="final-slider-wrapper" id="testimonialSlider">
                           <!-- Cards will be rendered here -->
-                      </div>
-                  </div>
-                  <div class="col-md-4" style="position: relative;">
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="position: relative;">
                       <!-- Trustpilot -->
-                            <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
-                                <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
-                                <div class="mt-2 trusexce">Excellent</div>
-                                <div class="trustpilot-stars" style="text-align: left;">
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star">★</span>
-                                  <span class="star inactive">★</span>
-                                </div>
-                                <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
+                        <div class="mt-4" style="position: absolute;top: 50px;left: 25px;">
+                            <img style="display:block" src="{{ url('assets/images/true.svg') }}" width="120" alt="Trustpilot"/>
+                            <div class="mt-2 trusexce">Excellent</div>
+                            <div class="trustpilot-stars" style="text-align: left;">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star inactive">★</span>
                             </div>
-                  </div>
-              </div>
+                            <div class="text-white mt-1 retrus">TrustScore 4.5 | 25,327 reviews</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -877,9 +880,9 @@
               <div class="expedite-formation-journey-container">
                   <span class="expedite">Expedite</span> FORMATION Journey
               </div>
-              <div class="entrepreneurs-move-fast-container">
-                <p class="entrepreneurs-move-fast">Entrepreneurs move fast. We move faster.</p>
-                <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense.</p>
+              <div class="entrepreneurs-move-fast-containers">
+                <p class="entrepreneurs-move-fast">Real Voices. Real Wins.</p>
+                <p class="entrepreneurs-move-fast">Unfiltered stories from entrepreneurs who’ve built faster, smarter, and bolder—with us.</p>
               </div>
               <div class="video-slider" id="videoSlider">
                 <div class="video-card">
@@ -922,7 +925,7 @@
         <div class="row">
             <div class="col">
                 <div class="frequently-asked-questions">Frequently Asked Questions</div>
-                <div class="offending-belonging-promotion">Offending belonging promotion provision an be oh consulted ourselves it. Blessing welcomed ladyship she met humoured sir breeding her. </div>
+                <div class="offending-belonging-promotion">Some of the most common questions our clients ask—answered clearly to help you make confident decisions. </div>
 
                 <div class="accordion accdesign mt-5" id="accordionExample">
                   <div class="accordion-item">
@@ -1034,7 +1037,7 @@
         <div class="row">
             <div class="col">
                 <div class="blog-article">Blog Article</div>
-                <div class="offending-belonging-promotion">Offending belonging promotion provision an be oh consulted ourselves it. Blessing welcomed ladyship she met humoured sir breeding her. </div>
+                <div class="offending-belonging-promotion">Read our latest research and follow the blog for more updates! </div>
                 <div class="row mt-5 mb-5">
                     <div class="col-md-4 ">
                         <div class="card cardmain blogcard">
