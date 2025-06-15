@@ -135,7 +135,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="margin-bottom: 10%;">
         <div class="row">
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h5 class="fw-semibold">Related Blogs</h5>
@@ -145,7 +145,7 @@
             <div class="row" id="blogContainer"></div>
         </div>
     </div>
-    <section class="hero-sections pb-5">
+    <section class="hero-sections mt-5 pb-5">
         <div class="container">
             <div class="hero-content">
             <h2>Payment Gateway Vs. Payment Processor:<br>
