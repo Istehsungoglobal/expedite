@@ -899,7 +899,7 @@ a:active {
       background: #fff;
       border-radius: 20px;
       padding: 30px 25px;
-      width: 100%;
+      width: 105%;
       box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 10%);
 
     }
@@ -1542,12 +1542,7 @@ a:active {
 		      
 		}
 
-
-
-
-
-
-/* logo client */
+    /* logo client */
 		.brand-strip-container {
       overflow: hidden;
       position: relative;
@@ -1623,7 +1618,7 @@ a:active {
 
 
 
-/*------video slider -------*/
+    /*------video slider -------*/
 
 		.video-slider {
       display: flex;
@@ -1663,7 +1658,7 @@ a:active {
 
 
 
-.testimonial-section {
+    .testimonial-section {
       padding: 60px 0;
       background-color: #fff;
     }
@@ -1686,15 +1681,15 @@ a:active {
     }
 
     .gust-wanted-to {
-		width: 100%;
-		position: relative;
-		font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
-		letter-spacing: -0.04em;
-		line-height: 46px;
-		font-family: Poppins;
-		color: #080808;
-		text-align: left;
-		display: inline-block;
+  		width: 100%;
+  		position: relative;
+  		font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
+  		letter-spacing: -0.04em;
+  		line-height: 46px;
+  		font-family: Poppins;
+  		color: #080808;
+  		text-align: left;
+  		display: inline-block;
 		}
 
 		.i-just-wanted {
@@ -1856,36 +1851,28 @@ a:active {
       color: #e64a19;
     }
 
+  .frequently-asked-questions {
+    width: 100%;
+    position: relative;
+    font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
+    letter-spacing: -0.06em;
+    font-family: Poppins;
+    color: #080808;
+    text-align: center;
+    display: inline-block;
+    height: 80px;
+  }
 
-
-
-
-
-
-
-
-.frequently-asked-questions {
-width: 100%;
-position: relative;
-font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
-letter-spacing: -0.06em;
-font-family: Poppins;
-color: #080808;
-text-align: center;
-display: inline-block;
-height: 80px;
-}
-
-.offending-belonging-promotion {
-width: 50%;
-position: relative;
-font-size: 16px;
-letter-spacing: -0.02em;
-font-family: Poppins;
-color: #4d4d4d;
-text-align: center;
-margin: 0px auto;
-}
+  .offending-belonging-promotion {
+    width: 50%;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    font-family: Poppins;
+    color: #4d4d4d;
+    text-align: center;
+    margin: 0px auto;
+  }
 
 
 /*question*/
