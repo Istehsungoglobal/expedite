@@ -55,6 +55,7 @@
       font-weight: 600;
     }
     .simple-transparent {
+        margin-top: 40px;
         position: relative;
         font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
         letter-spacing: -0.06em;
