@@ -305,8 +305,8 @@
             </div>
         </div>
 
-        <div class="row pt-3">
-            <div class="col-md-3 col-sm-6 p-1">
+        <div class="row pt-3 ">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-center">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">30+</div>
@@ -315,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 p-1">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-center">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">2k+</div>
@@ -323,7 +323,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 p-1">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-center">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">2k+</div>
@@ -331,7 +331,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 p-1">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-center">
                 <div class="card cardfor-parent">
                   <div class="parents">
                     <div class="divs">5+</div>
@@ -487,7 +487,7 @@
                 <h1 class="pick-the-best">Pick the best plan to grow your business</h1>
             </div>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4" style="margin: 0px auto;">
             <div class="col-lg-4 col-md-12">
                 <div class="result-card shadow-sm mx-auto">
                     <div class="result-text">No Surprises. Just Results!!!</div>
@@ -766,23 +766,17 @@
         <div class="fade-overlay-right"></div>
         <div class="brand-strip-track row-1" id="dynamicLogoSlider">
           <!-- Duplicated logos for infinite loop -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-1.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-2.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-3.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-4.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-5.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-6.webp') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-7.webp') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-8.webp') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (1).png') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (2).png') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (3).png') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (4).png') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (5).png') }}" alt="Logo 5"></div>
           <!-- Repeat the same logos to create infinite effect -->
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-1.webp') }}" alt="Logo 1"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-2.webp') }}" alt="Logo 2"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-3.webp') }}" alt="Logo 3"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-4.webp') }}" alt="Logo 4"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-5.webp') }}" alt="Logo 5"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-6.webp') }}" alt="Logo 6"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-7.webp') }}" alt="Logo 7"></div>
-          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/MOU-8.webp') }}" alt="Logo 8"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (1).png') }}" alt="Logo 1"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (2).png') }}" alt="Logo 2"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (3).png') }}" alt="Logo 3"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (4).png') }}" alt="Logo 4"></div>
+          <div class="brand-logo-wrapper"><img src="{{ url('assets/images/msn (5).png') }}" alt="Logo 5"></div>
         </div>
       </div>
     </div>
