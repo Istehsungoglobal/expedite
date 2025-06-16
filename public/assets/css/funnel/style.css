@@ -822,28 +822,21 @@ a:active {
     box-shadow: 0px 8px 20px rgba(107, 78, 252, 0.2);
     border-radius: 40px;
     background-color: #fff;
-    width: 8%;
+    width: 7%;
     height: 46px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 12px 0px 12px 12px;
+    padding: 4px 0px 4px 4px;
     box-sizing: border-box;
-    gap: 16px;
-    /* text-align: left; */
+    gap: 7px;
     font-size: 14px;
     color: #172155;
     font-family: Inter;
 	}
 
-	@media (max-width: 970px) {
 
-    .get-started-parentblu {
-        width: 19% !important;
-  }
-      
-}
 .lbtncat{
     width: 40px;
     height: 40px;
@@ -870,18 +863,16 @@ a:active {
 }
 
 .result-card {
-    height: 90%;
+    height: 95%;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 15px;
     text-align: left;
-    max-width: 100%;
-    margin-top: 10%;
+    margin-top: 8%;
     }
  .result-card img {
       width: 100%;
       border-radius: 8px;
-      object-fit: cover;
     }
   .result-text {
       font-weight: bold;
