@@ -577,7 +577,8 @@ a:active {
 }
 .entrepreneurs-move-fast-container {
 		width: 80%;
-    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+    font-size: clamp(1.5625rem, 1.0156rem + 1.75vw, 2rem);
+    font-weight: 500;
     letter-spacing: -0.04em;
     font-family: Poppins;
     color: #080808;
@@ -693,9 +694,11 @@ a:active {
 	margin: 0;
 }
 .everything-you-need-container {
+  margin:55px auto;
 	width: 100%;
 	position: relative;
-	font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+	font-size: clamp(1.875rem, 0rem + 6vw, 3.375rem);
+  font-weight: 500;
 	font-family: Poppins;
 	color: #fff;
   margin-bottom:10px;
@@ -847,14 +850,11 @@ a:active {
     font-size: 25px;
 }
 
-
-
-
-
 .pick-the-best {
-		width: 50%;
+    margin: 56px auto;
+		width: 70%;
 		position: relative;
-		font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+		font-size: clamp(1.875rem, 0rem + 6vw, 3.375rem);
 		font-weight: 500;
 		font-family: Poppins;
 		color: #080808;
@@ -912,7 +912,7 @@ a:active {
 
     .label-tag {
       font-size: 9px;
-      background: #d1d1d1;
+      background: #8D8D8D;
       color: white;
       padding: 2px 10px;
       border-radius: 20px;
@@ -1010,7 +1010,7 @@ a:active {
 .why-set-up {
 	
 	position: relative;
-	font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+	font-size: clamp(1.875rem, 0rem + 6vw, 3.375rem);
 	letter-spacing: -0.06em;
 	font-weight: 500;
 	font-family: Poppins;
@@ -1209,7 +1209,8 @@ a:active {
 		}
 		.global-credibility
 		{
-			font-size: clamp(1.5625rem, 1.1719rem + 1.25vw, 1.875rem);
+			font-size: clamp(1.875rem, 1.0938rem + 2.5vw, 2.5rem);
+      font-weight: 500;
 			margin: 0px;
 			border-radius: 15px;
 		}
@@ -1354,7 +1355,7 @@ a:active {
 		.routeh1{
 			  color: white;
 		    padding-left: 6%;
-		    font-size: clamp(1.5625rem, 0.7813rem + 2.5vw, 2.1875rem);
+		    font-size: clamp(1.875rem, 0.9375rem + 3vw, 2.625rem);
 		    margin-top: 10%;
 
 		}
@@ -1390,11 +1391,12 @@ a:active {
 			position: relative;
 		}
 		.divone{
-			  width: 208px;
+			  width: 256px;
+        height: 111px;
 		    background-color: #FFFFFF;
 		    position: absolute;
-		    left: 18%;
-		    top: 35%;
+		    left: 14%;
+        top: 34%;
 		    margin: auto;
 		    border-radius: 15px;
 		    box-shadow: 7px 8px 4px 0px #121524;
@@ -1417,8 +1419,8 @@ a:active {
 			background-color:#F8561B ;
 			color: white;
 			cursor:pointer ;
-			z-index: 999;
 			box-shadow: 7px 8px 14px 0px #121524;
+      z-index: 222;
 		}
 
 		.actives h6{
@@ -1433,7 +1435,8 @@ a:active {
 		}
 
 		.divtwo{
-			  width: 208px;
+			  width: 256px;
+        height: 111px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    right: 17%;
@@ -1458,11 +1461,12 @@ a:active {
 
 		
 		.divthree{
-			  width: 208px;
+			  width: 256px;
+        height: 111px;
 		    background-color: #FFFFFF;
 		    position: absolute;
-		    left: 10%;
-		    bottom: 21%;
+		    left: 7%;
+        bottom: 18%;
 		    margin: auto;
 		    border-radius: 15px;
 		    box-shadow: 7px 8px 4px 0px #121524;
@@ -1483,7 +1487,8 @@ a:active {
 
 		
 		.divfour{
-			  width: 208px;
+			  width: 256px;
+        height: 111px;
 		    background-color: #FFFFFF;
 		    position: absolute;
 		    right: 15%;
@@ -1743,7 +1748,7 @@ a:active {
 			}
 			.entrepreneurs-move-fast-containers {
 				position: relative;
-				font-size: clamp(1.5rem, 1.0313rem + 1.5vw, 1.875rem);
+				font-size: clamp(1.5625rem, 1.0156rem + 1.75vw, 2rem);
 				letter-spacing: -0.04em;
 				font-weight: 500;
 				font-family: Poppins;
@@ -1845,8 +1850,9 @@ a:active {
   .frequently-asked-questions {
     width: 100%;
     position: relative;
-    font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
+    font-size: clamp(1.875rem, 0.1563rem + 5.5vw, 3.25rem);
     letter-spacing: -0.06em;
+    font-weight: 500;
     font-family: Poppins;
     color: #080808;
     text-align: center;
@@ -1855,14 +1861,15 @@ a:active {
   }
 
   .offending-belonging-promotion {
-    width: 50%;
+    width: 62%;
     position: relative;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: -0.02em;
     font-family: Poppins;
     color: #4d4d4d;
     text-align: center;
     margin: 0px auto;
+    padding-bottom: 20px;
   }
 
 
@@ -1878,9 +1885,10 @@ object-fit: cover;
 }
 
 .got-questions-were {
-width: 60%;
+width: 90%;
 position: relative;
-font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
+font-size: clamp(2rem, 0.2813rem + 5.5vw, 3.375rem);
+font-weight: 500;
 letter-spacing: -0.04em;
 font-family: Inter;
 color: #080808;
@@ -1937,9 +1945,11 @@ display: inline-block;
     }
 
 .blog-article {
+  margin-bottom: 20px;
 width: 100%;
 position: relative;
-font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
+font-size: clamp(2rem, 0.2813rem + 5.5vw, 3.375rem);
+font-weight: 500;
 letter-spacing: -0.06em;
 font-family: Poppins;
 color: #080808;
