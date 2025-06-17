@@ -192,7 +192,7 @@
                 <div class="expedite-your-us-container">
                     <span class="expedite-your">Expedite YOUR </span>
                     <span class="us-company-formation">U.S. COMPANY formation</span>
-                    <span class="dominate-your"> Dominate Your<div class="svgdiv"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div>Industry.</span>
+                    <span class="dominate-your"> Dominate Your<div class="svgdiv"> <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f8561b" ><path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/></svg></div> Industry.</span>
 
                 </div>
             </div>
@@ -200,7 +200,7 @@
         <div class="row">
             <div class="col">
                 <div class="confidential-remote-container">
-                    <span class=" fastest">100%</span><span class="confidential-remote"><span class="officia"> Confidential & Remote |</span><span class="fastest"> </span></span><span class="fastest"><span>Fastest</span></span><span class="set-up-in-the"> Set-up in the Industry | Stripe & Bank-</span><span class=" fastest">Ready</span><span class="set-up-in-the"> Access | </span><span class="officia"><span class=" fastest">Officia</span></span><span class="confidential-remote"><span class="officia">l </span><span> U.S. Address.</span></span>
+                    <span class=" fastest">100%</span><span class="confidential-remote"><span class="officia"> Confidential & Remote |</span><span class="fastest"> </span></span><span class="fastest"><span>Fastest</span></span><span class="set-up-in-the"> Set-up in the Industry | Stripe & Bank-</span><span class=" fastest">Ready</span><span class="set-up-in-the"> Access | </span><span class="officia"><span class=" fastest">Officia</span></span><span class="confidential-remote"><span class="officia">l </span><span> U.S. Address</span></span>
                 </div>
             </div>
         </div>
@@ -277,13 +277,10 @@
                       <img src="{{asset('assets/images/Wise.webp')}}">
                       <img src="{{asset('assets/images/UPI.webp')}}">
                       <img src="{{asset('assets/images/paypal.webp')}}">
-                      
                     </div>
                   </div>
-
             </div>
         </div>
-
     </div>
 </section>
 
@@ -299,8 +296,8 @@
         <div class="row pt-2 mb-5">
             <div class="col-12"style="text-align: center" >
                 <div class="entrepreneurs-move-fast-container">
-                    <p class="entrepreneurs-move-fast">Entrepreneurs move fast. We move faster.</p>
-                    <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense.</p>
+                    <p class="entrepreneurs-move-fast">Entrepreneurs move fast. We move faster</p>
+                    <p class="entrepreneurs-move-fast">US business in Clicks. No paperwork, no visits, no-nonsense</p>
                 </div>
             </div>
         </div>
@@ -487,7 +484,7 @@
                 <h1 class="pick-the-best">Pick the best plan to grow your business</h1>
             </div>
         </div>
-        <div class="row mt-4" style="margin: 0px auto;">
+        <div class="row mt-4" style="margin: 10px auto;">
             <div class="col-lg-4 col-md-12">
                 <div class="result-card shadow-sm mx-auto">
                     <div class="result-text">No Surprises. Just Results!!!</div>
@@ -542,7 +539,7 @@
                                   <div class="package-card">
                                     <div style="display: flex; justify-content: space-between; align-items: center;">
                                       <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
-                                      <div class="label-tag">Priority Handling & Fast Delivery</div>
+                                      <div class="label-tag" >Priority Handling & Fast Delivery</div>
                                     </div>
 
                                     <div class="price-row">
@@ -570,7 +567,7 @@
                                     </ul>
 
                                     <button class="total-btn">
-                                      Get Started <span class="rarr">→</span>
+                                      Get Started <span class="rarr" style="color: white;">→</span>
                                     </button>
                                   </div>
                             </form>
@@ -724,10 +721,10 @@
     <div class="container" style="margin-bottom:7%">
         <div class="group-333-1-parent">
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-7 ">
                     <h1 class="routeh1" >Your Quickest Route to Forming a U.S. Business</h1>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
                 <div class="col-md-3">
                    <p class="routep">A US-registered business boosts trust with investors, clients, and marketplaces like Amazon & eBay, setting you apart from competitors.</p>
                 </div>
@@ -790,7 +787,7 @@
         <div class="final-container">
             <!-- LEFT -->
             <div class="final-left">
-              <h2>What Our Clients Say</h2>
+              <h2 style="font-size: clamp(1.875rem, 0.9375rem + 3vw, 2.625rem);font-weight: 500;">What Our Clients Say</h2>
               <p>Your success stories fuel our passion. Here’s a quick note from our happy clients sharing their experience with us.</p>
               <div class="contact-us-parentg mt-5">
                   <div class="contact-us">Contact us</div>
@@ -827,17 +824,13 @@
     </div>
 </section>
 
-
-
-
-
-
 <section>
     <div class="container" style="margin-top: 7%;">
       <div class="container-flude pb-5">
           <div class="video-slider-section">
               <div class="expedite-formation-journey-container">
                   <span class="expedite">Expedite</span> FORMATION Journey
+                  <hr style="width: 24%; margin: 12px auto;">
               </div>
               <div class="entrepreneurs-move-fast-containers">
                 <p class="entrepreneurs-move-fast">Real Voices. Real Wins.</p>
