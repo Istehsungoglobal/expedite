@@ -4,6 +4,7 @@
 
 @push('styles')
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
 <style>
     .simple-transparent {
@@ -175,7 +176,7 @@
         <p class="expedite-formation-us"style="text-indent: 2em;">0.2. The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete;</p>
         <p class="expedite-formation-us"style="text-indent: 2em;">0.3. The right to object. You have the right to object to our processing of your Personal Data;</p>
         <p class="expedite-formation-us"style="text-indent: 2em;">0.4. The right of restriction. You have the right to request that we restrict the processing of your personal information;</p>
-        <p class="expedite-formation-us"style="text-indent: 2em;">0.5. The right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable, and commonly used format;</p>
+        <p class="expedite-formation-us">0.5. The right to data portability. You have the right to be provided with a copy of your Personal Data in a structured, machine-readable, and commonly used format;</p>
         <p class="expedite-formation-us"style="text-indent: 2em;">0.6. The right to withdraw consent. You also have the right to withdraw your consent at any time when we rely on your support to process your personal information;</p>
         <p class="expedite-formation-us">Please note that we may ask you to verify your identity before responding to such requests. Please note we may not be able to provide Service without some necessary data.</p>
         <p class="expedite-formation-us">You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. Please contact your local European Economic Area (EEA) data protection authority for more information.</p>
