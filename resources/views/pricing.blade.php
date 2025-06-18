@@ -133,11 +133,11 @@
 
 
 @section('content')
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-2">
     <div class="simple-transparent">Pic a best plan to grow your business </div>
 </div>
 <!-- business part -->
-<section class="business pt-5 mb-5">
+<section class="business  mb-5">
     <div class="container">
         <div class="row">
            
@@ -176,7 +176,7 @@
                       </ul>
 
                       <button class="total-btn">
-                        Get Started <span class="rarr">→</span>
+                        Get Started <span class="rarr" style="color: white;">→</span>
                       </button>
                     </div>
                   </form>
@@ -185,7 +185,7 @@
                       <div class="package-cardprices">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                           <div style="font-size: 12px"><strong>Expedite Formation</strong></div>
-                          <div class="label-tag" style="margin-left: 2px;color: #172155;">Priority Handling & Fast Delivery</div>
+                          <div class="label-tag" style="margin-left: 2px;background-color:#fff;color: #172155;">Priority Handling & Fast Delivery</div>
                         </div>
 
                         <div class="price-row">
@@ -213,7 +213,7 @@
                         </ul>
 
                         <button class="total-btn">
-                          Get Started <span class="rarrs">→</span>
+                          Get Started <span class="rarrs" style="color: white;">→</span>
                         </button>
                       </div>
                   </form>
@@ -250,3 +250,14 @@
 </script>
 
 @endpush
+
+
+
+
+
+
+
+
+
+
+ 
