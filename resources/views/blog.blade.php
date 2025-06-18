@@ -85,7 +85,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-2 mt-5">
+            <div class="col-md-2 mt-2">
                 <div class="popular-posts">
                     <h6>POPULAR POSTS</h6>
 
@@ -139,7 +139,7 @@
         <div class="row">
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h5 class="fw-semibold">Related Blogs</h5>
-                <button  class="btn btn-outline-info btn-sm post-div" id="viewAllBtn">View All Blog</button>
+                <button  class="btn btn-outline-info btn-sm post-div" style="color:#f8561b;" id="viewAllBtn">View All Blog</button>
             </div>
 
             <div class="row" id="blogContainer"></div>
@@ -148,27 +148,30 @@
     <section class="hero-sections mt-5 pb-5">
         <div class="container">
             <div class="hero-content">
-            <h2>Payment Gateway Vs. Payment Processor:<br>
-                Everything You Need To Know For A Small Business</h2>
-            <form class="subscribe-form mt-4" onsubmit="joinUs(event)">
-                <input type="email" id="emailInput" placeholder="Type your email address" required>
-                <button type="submit">Join with us <i class="fas fa-arrow-right"></i></button>
-            </form>
+            <h2 style="">You’ve got the knowledge — now it’s time to act.
+            Form your U.S. company now and turn your business idea into reality</h2>
+             <form class="subscribe-container">
+                <input type="email" placeholder="Type your email address" required />
+                <button type="submit" class="subscribe-btn">
+                  Join with us
+                  <span class="arrow">→</span>
+                </button>
+              </form>
             </div>
         </div>
     </section>
    <div class="container">
-        <div class="subscribe-box">
-            <div class="row align-items-center">
-            <div class="text-start">
-                <h5>Connect with the Expedite Formation Community!</h5>
-                <p>
-                Be the first to know—get early access to new features, development tips,
-                and the latest software trends delivered right to your inbox.
-                </p>
+        <section class="subscribe-section">
+            <div class="subscribe-text">
+              <h3>Connect with the Expedite Formation Community!</h3>
+              <p>Be the first to know—get early access to new features, development tips, and the latest software trends delivered right to your inbox.</p>
             </div>
-           
-        </div>
+            <form class="subscribe-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+        </section>
     </div>
 
 </section>
