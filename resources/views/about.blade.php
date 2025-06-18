@@ -111,9 +111,9 @@
   
 .container-fluid::before {
     content: '';
-    top: -8px;
+    top: -41px;
     position: absolute;
-    height: 139px;
+    height: 112px;
     width: 100%;
     background-color: #ffffff;
     z-index: 9;
@@ -177,7 +177,7 @@
     .about-transparent {
   
     position: relative;
-    font-size: clamp(1.5rem, 0.6406rem + 2.75vw, 2.1875rem);
+    font-size: clamp(2rem, 1.375rem + 2vw, 2.5rem);
     letter-spacing: -0.06em;
     line-height: 58px;
     font-weight: 500;
@@ -205,13 +205,13 @@
     }
 
     .stats-number {
-      font-size: 2rem;
-      font-weight: 600;
+      font-size: clamp(2.5rem, 0.625rem + 6vw, 4rem);
+      font-weight: 500;
     }
     .stats-label {
       font-size: 0.875rem;
-      color: #555;
-      margin-top: 0.25rem;
+    color: #555;
+    margin-top: -0.75rem;
     }
     .stats-block {
       text-align: center;
@@ -278,6 +278,7 @@
       width: 37%;
     }
     .commitment-text h5 {
+      font-size:30px;
       font-weight: 600;
     }
     .we-believe-that {
@@ -389,7 +390,7 @@
     }
 
     .final-left h2 {
-      font-size: 28px;
+      font-size: 40px;
       margin-bottom: 16px;
     }
 
@@ -524,9 +525,9 @@
     .contact-btn-modern {
         display: inline-flex;
         align-items: center;
-        background-color: #cdcdcd;
+        background-color: #ffffff;
         border-radius: 50px;
-        box-shadow: 0 5px 20px rgba(78, 91, 255, 0.1);
+        box-shadow: 0 5px 20px rgb(78 91 255 / 25%);
         padding: 4px 4px 4px 15px;
         font-size: 14px;
         color: #1b1f4b;
@@ -589,7 +590,7 @@
       overflow-x: auto;
       scroll-behavior: smooth;
       gap: 20px;
-      padding: 30px;
+      padding: 0px 30px 100px;
       cursor: grab;
     }
 
@@ -797,20 +798,16 @@
         </div>
     </div>
 </section>
-
-
-
-
-<div class="container mt-5 pb-5 mb-4">
+<div class="container mt-5 pb-5 mb-2">
     <div class="expedite-formation-journey-container">
         <span class="expedite">Expedite</span> FORMATION Journey
     </div>
-    <div class="entrepreneurs-move-fast-containerabout mt-5">
+    <div class="entrepreneurs-move-fast-containerabout mt-4">
       <p class="entrepreneurs-move-fast">Real Voices. Real Wins.</p>
       <p class="entrepreneurs-move-fast">Unfiltered stories from entrepreneurs who’ve built faster, smarter, and bolder—with us.</p>
     </div>
 </div>
-<div class="container-flude mt-5 mb-5 pb-5">
+<div class="container-flude mb-5 pb-5">
   <div class="video-slider" id="videoSlider">
     <div class="video-card">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvxxCeBGWg?si=i7R4G6TiaNg0tAqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allow="autoplay; encrypted-media"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
