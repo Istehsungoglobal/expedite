@@ -98,6 +98,7 @@ Route::get('/refund', [FontPageController::class, 'refund'])->name('refund');
 Route::get('/terms', [FontPageController::class, 'terms'])->name('terms');
 Route::get('/privacy', [FontPageController::class, 'privacy'])->name('privacy');
 Route::get('/blog', [FontPageController::class, 'blog'])->name('blog');
+Route::get('/post_blog', [FontPageController::class, 'post_blog'])->name('post_blog');
 
 
 
