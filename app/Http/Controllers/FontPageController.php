@@ -34,6 +34,10 @@ class FontPageController extends Controller
     {
         return view("blog");
     }
+    public function post_blog()
+    {
+        return view("post_blog");
+    }
 
     public function terms()
     {
